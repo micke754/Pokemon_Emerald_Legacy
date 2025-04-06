@@ -42,7 +42,7 @@ prefabs.json
 # save game files
 *.sgm
 *.srm
-*.sav
+# *.sav
 *.rtc
 *.sn*
 *.sa*
