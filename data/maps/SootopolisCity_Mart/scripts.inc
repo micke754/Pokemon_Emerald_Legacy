@@ -23,6 +23,7 @@ SootopolisCity_Mart_Pokemart:
 	.2byte ITEM_TM_DIG
 	.2byte ITEM_TM_THIEF
 	.2byte ITEM_TM_BULLET_SEED
+	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_NONE
 	release
 	end
