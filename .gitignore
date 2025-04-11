@@ -61,3 +61,6 @@ prefabs.json
 
 #agbcc
 agbcc/
+
+#ccls
+.ccls-cache/
