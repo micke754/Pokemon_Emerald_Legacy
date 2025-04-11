@@ -22,43 +22,38 @@
 #define CHARMAP_H
 
 #include <cstdint>
-#include <string>
 #include <map>
+#include <string>
 #include <vector>
 
-class Charmap
-{
+class Charmap {
 public:
-    Charmap(std::string filename);
+  Charmap(std::string filename);
 
-    std::string Char(std::int32_t code)
-    {
-        auto it = m_chars.find(code);
+  std::string Char(std::int32_t code) {
+    auto it = m_chars.find(code);
 
-        if (it == m_chars.end())
-            return std::string();
+    if (it == m_chars.end())
+      return std::string();
 
-        return it->second;
-    }
+    return it->second;
+  }
 
-    std::string Escape(unsigned char code)
-    {
-        return m_escapes[code];
-    }
+  std::string Escape(unsigned char code) { return m_escapes[code]; }
 
-    std::string Constant(std::string identifier)
-    {
-        auto it = m_constants.find(identifier);
+  std::string Constant(std::string identifier) {
+    auto it = m_constants.find(identifier);
 
-        if (it == m_constants.end())
-            return std::string();
+    if (it == m_constants.end())
+      return std::string();
 
-        return it->second;
-    }
+    return it->second;
+  }
+
 private:
-    std::map<std::int32_t, std::string> m_chars;
-    std::string m_escapes[128];
-    std::map<std::string, std::string> m_constants;
+  std::map<std::int32_t, std::string> m_chars;
+  std::string m_escapes[128];
+  std::map<std::string, std::string> m_constants;
 };
 
 #endif // CHARMAP_H

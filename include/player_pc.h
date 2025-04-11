@@ -3,14 +3,13 @@
 
 #include "menu.h"
 
-struct PlayerPCItemPageStruct
-{
-    u16 cursorPos;
-    u16 itemsAbove;
-    u8 pageItems;
-    u8 count;
-    u8 filler[3];
-    u8 scrollIndicatorTaskId;
+struct PlayerPCItemPageStruct {
+  u16 cursorPos;
+  u16 itemsAbove;
+  u8 pageItems;
+  u8 count;
+  u8 filler[3];
+  u8 scrollIndicatorTaskId;
 };
 
 extern struct PlayerPCItemPageStruct gPlayerPCItemPageInfo;
@@ -22,5 +21,4 @@ void CB2_PlayerPCExitBagMenu(void);
 void Mailbox_ReturnToMailListAfterDeposit(void);
 void NewGameInitPCItems(void);
 
-
-#endif //GUARD_PLAYER_PC_H
+#endif // GUARD_PLAYER_PC_H

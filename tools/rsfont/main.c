@@ -18,76 +18,76 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include <stdio.h>
-#include <string.h>
-#include <stdbool.h>
-#include "global.h"
-#include "util.h"
-#include "gfx.h"
 #include "convert_png.h"
 #include "font.h"
+#include "gfx.h"
+#include "global.h"
+#include "util.h"
+#include <stdbool.h>
+#include <stdio.h>
+#include <string.h>
 
-int ExtensionToBpp(const char *extension)
-{
-    if (!strcmp(extension, "1bpp"))
-        return 1;
-    else if (!strcmp(extension, "4bpp"))
-        return 4;
-    return 0;
+int ExtensionToBpp(const char *extension) {
+  if (!strcmp(extension, "1bpp"))
+    return 1;
+  else if (!strcmp(extension, "4bpp"))
+    return 4;
+  return 0;
 }
 
-int main(int argc, char **argv)
-{
-	if (argc < 5)
-		FATAL_ERROR("Usage: rsfont INPUT_FILE OUTPUT_FILE NUM_GLYPHS LAYOUT_TYPE\n");
+int main(int argc, char **argv) {
+  if (argc < 5)
+    FATAL_ERROR(
+        "Usage: rsfont INPUT_FILE OUTPUT_FILE NUM_GLYPHS LAYOUT_TYPE\n");
 
-	char *inputPath = argv[1];
-	char *outputPath = argv[2];
-	char *inputFileExtension = GetFileExtension(inputPath);
-	char *outputFileExtension = GetFileExtension(outputPath);
+  char *inputPath = argv[1];
+  char *outputPath = argv[2];
+  char *inputFileExtension = GetFileExtension(inputPath);
+  char *outputFileExtension = GetFileExtension(outputPath);
 
-	if (inputFileExtension == NULL)
-		FATAL_ERROR("Input file \"%s\" has no extension.\n", inputPath);
+  if (inputFileExtension == NULL)
+    FATAL_ERROR("Input file \"%s\" has no extension.\n", inputPath);
 
-	if (outputFileExtension == NULL)
-		FATAL_ERROR("Output file \"%s\" has no extension.\n", outputPath);
+  if (outputFileExtension == NULL)
+    FATAL_ERROR("Output file \"%s\" has no extension.\n", outputPath);
 
-    int numGlyphs;
-    int bpp;
-    int layout;
+  int numGlyphs;
+  int bpp;
+  int layout;
 
-    if (!ParseNumber(argv[3], NULL, 10, &numGlyphs))
-        FATAL_ERROR("Failed to parse number of glyphs.\n");
+  if (!ParseNumber(argv[3], NULL, 10, &numGlyphs))
+    FATAL_ERROR("Failed to parse number of glyphs.\n");
 
-    if (!ParseNumber(argv[4], NULL, 10, &layout))
-        FATAL_ERROR("Failed to parse layout type.\n");
+  if (!ParseNumber(argv[4], NULL, 10, &layout))
+    FATAL_ERROR("Failed to parse layout type.\n");
 
-    if (layout < 0 || layout > 2)
-        FATAL_ERROR("Layout type %d is invalid. Layout type must be 0, 1, or 2.\n", layout);
+  if (layout < 0 || layout > 2)
+    FATAL_ERROR("Layout type %d is invalid. Layout type must be 0, 1, or 2.\n",
+                layout);
 
-    bool toPng;
+  bool toPng;
 
-    if (!strcmp(inputFileExtension, "png") && (bpp = ExtensionToBpp(outputFileExtension)) != 0)
-        toPng = false;
-    else if ((bpp = ExtensionToBpp(inputFileExtension)) != 0 && !strcmp(outputFileExtension, "png"))
-        toPng = true;
-    else
-        FATAL_ERROR("Don't know how to convert \"%s\" to \"%s\".\n", inputPath, outputPath);
+  if (!strcmp(inputFileExtension, "png") &&
+      (bpp = ExtensionToBpp(outputFileExtension)) != 0)
+    toPng = false;
+  else if ((bpp = ExtensionToBpp(inputFileExtension)) != 0 &&
+           !strcmp(outputFileExtension, "png"))
+    toPng = true;
+  else
+    FATAL_ERROR("Don't know how to convert \"%s\" to \"%s\".\n", inputPath,
+                outputPath);
 
-    if (bpp == 1 && layout == 2)
-        FATAL_ERROR("Layout type 2 is not supported with 1 BPP fonts.\n");
+  if (bpp == 1 && layout == 2)
+    FATAL_ERROR("Layout type 2 is not supported with 1 BPP fonts.\n");
 
-    struct Image image;
+  struct Image image;
 
-    if (toPng)
-    {
-        ReadFont(inputPath, &image, numGlyphs, bpp, layout);
-        WritePng(outputPath, &image);
-    }
-    else
-    {
-        image.bitDepth = 8;
-        ReadPng(inputPath, &image);
-        WriteFont(outputPath, &image, numGlyphs, bpp, layout);
-    }
+  if (toPng) {
+    ReadFont(inputPath, &image, numGlyphs, bpp, layout);
+    WritePng(outputPath, &image);
+  } else {
+    image.bitDepth = 8;
+    ReadPng(inputPath, &image);
+    WriteFont(outputPath, &image, numGlyphs, bpp, layout);
+  }
 }

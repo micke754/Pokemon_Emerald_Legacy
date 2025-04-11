@@ -1,5 +1,4 @@
-const struct Tileset gTileset_General =
-{
+const struct Tileset gTileset_General = {
     .isCompressed = TRUE,
     .isSecondary = FALSE,
     .tiles = gTilesetTiles_General,
@@ -9,8 +8,7 @@ const struct Tileset gTileset_General =
     .callback = InitTilesetAnim_General,
 };
 
-const struct Tileset gTileset_Petalburg =
-{
+const struct Tileset gTileset_Petalburg = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Petalburg,
@@ -20,8 +18,7 @@ const struct Tileset gTileset_Petalburg =
     .callback = InitTilesetAnim_Petalburg,
 };
 
-const struct Tileset gTileset_Rustboro =
-{
+const struct Tileset gTileset_Rustboro = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Rustboro,
@@ -31,8 +28,7 @@ const struct Tileset gTileset_Rustboro =
     .callback = InitTilesetAnim_Rustboro,
 };
 
-const struct Tileset gTileset_Dewford =
-{
+const struct Tileset gTileset_Dewford = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Dewford,
@@ -42,8 +38,7 @@ const struct Tileset gTileset_Dewford =
     .callback = InitTilesetAnim_Dewford,
 };
 
-const struct Tileset gTileset_Slateport =
-{
+const struct Tileset gTileset_Slateport = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Slateport,
@@ -53,8 +48,7 @@ const struct Tileset gTileset_Slateport =
     .callback = InitTilesetAnim_Slateport,
 };
 
-const struct Tileset gTileset_Mauville =
-{
+const struct Tileset gTileset_Mauville = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Mauville,
@@ -64,8 +58,7 @@ const struct Tileset gTileset_Mauville =
     .callback = InitTilesetAnim_Mauville,
 };
 
-const struct Tileset gTileset_Lavaridge =
-{
+const struct Tileset gTileset_Lavaridge = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Lavaridge,
@@ -75,8 +68,7 @@ const struct Tileset gTileset_Lavaridge =
     .callback = InitTilesetAnim_Lavaridge,
 };
 
-const struct Tileset gTileset_Fallarbor =
-{
+const struct Tileset gTileset_Fallarbor = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Fallarbor,
@@ -86,8 +78,7 @@ const struct Tileset gTileset_Fallarbor =
     .callback = InitTilesetAnim_Fallarbor,
 };
 
-const struct Tileset gTileset_Fortree =
-{
+const struct Tileset gTileset_Fortree = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Fortree,
@@ -97,8 +88,7 @@ const struct Tileset gTileset_Fortree =
     .callback = InitTilesetAnim_Fortree,
 };
 
-const struct Tileset gTileset_Lilycove =
-{
+const struct Tileset gTileset_Lilycove = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Lilycove,
@@ -108,8 +98,7 @@ const struct Tileset gTileset_Lilycove =
     .callback = InitTilesetAnim_Lilycove,
 };
 
-const struct Tileset gTileset_Mossdeep =
-{
+const struct Tileset gTileset_Mossdeep = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Mossdeep,
@@ -119,8 +108,7 @@ const struct Tileset gTileset_Mossdeep =
     .callback = InitTilesetAnim_Mossdeep,
 };
 
-const struct Tileset gTileset_EverGrande =
-{
+const struct Tileset gTileset_EverGrande = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_EverGrande,
@@ -130,8 +118,7 @@ const struct Tileset gTileset_EverGrande =
     .callback = InitTilesetAnim_EverGrande,
 };
 
-const struct Tileset gTileset_Pacifidlog =
-{
+const struct Tileset gTileset_Pacifidlog = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Pacifidlog,
@@ -141,8 +128,7 @@ const struct Tileset gTileset_Pacifidlog =
     .callback = InitTilesetAnim_Pacifidlog,
 };
 
-const struct Tileset gTileset_Sootopolis =
-{
+const struct Tileset gTileset_Sootopolis = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Sootopolis,
@@ -152,8 +138,7 @@ const struct Tileset gTileset_Sootopolis =
     .callback = InitTilesetAnim_Sootopolis,
 };
 
-const struct Tileset gTileset_BattleFrontierOutsideWest =
-{
+const struct Tileset gTileset_BattleFrontierOutsideWest = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleFrontierOutsideWest,
@@ -163,8 +148,7 @@ const struct Tileset gTileset_BattleFrontierOutsideWest =
     .callback = InitTilesetAnim_BattleFrontierOutsideWest,
 };
 
-const struct Tileset gTileset_BattleFrontierOutsideEast =
-{
+const struct Tileset gTileset_BattleFrontierOutsideEast = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleFrontierOutsideEast,
@@ -174,8 +158,7 @@ const struct Tileset gTileset_BattleFrontierOutsideEast =
     .callback = InitTilesetAnim_BattleFrontierOutsideEast,
 };
 
-const struct Tileset gTileset_Building =
-{
+const struct Tileset gTileset_Building = {
     .isCompressed = TRUE,
     .isSecondary = FALSE,
     .tiles = gTilesetTiles_InsideBuilding,
@@ -185,8 +168,7 @@ const struct Tileset gTileset_Building =
     .callback = InitTilesetAnim_Building,
 };
 
-const struct Tileset gTileset_Shop =
-{
+const struct Tileset gTileset_Shop = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Shop,
@@ -196,8 +178,7 @@ const struct Tileset gTileset_Shop =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_PokemonCenter =
-{
+const struct Tileset gTileset_PokemonCenter = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_PokemonCenter,
@@ -207,8 +188,7 @@ const struct Tileset gTileset_PokemonCenter =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Cave =
-{
+const struct Tileset gTileset_Cave = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Cave,
@@ -218,8 +198,7 @@ const struct Tileset gTileset_Cave =
     .callback = InitTilesetAnim_Cave,
 };
 
-const struct Tileset gTileset_PokemonSchool =
-{
+const struct Tileset gTileset_PokemonSchool = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_PokemonSchool,
@@ -229,8 +208,7 @@ const struct Tileset gTileset_PokemonSchool =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_PokemonFanClub =
-{
+const struct Tileset gTileset_PokemonFanClub = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_PokemonFanClub,
@@ -240,8 +218,7 @@ const struct Tileset gTileset_PokemonFanClub =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Unused1 =
-{
+const struct Tileset gTileset_Unused1 = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Unused1,
@@ -251,8 +228,7 @@ const struct Tileset gTileset_Unused1 =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_MeteorFalls =
-{
+const struct Tileset gTileset_MeteorFalls = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_MeteorFalls,
@@ -262,8 +238,7 @@ const struct Tileset gTileset_MeteorFalls =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_OceanicMuseum =
-{
+const struct Tileset gTileset_OceanicMuseum = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_OceanicMuseum,
@@ -273,8 +248,7 @@ const struct Tileset gTileset_OceanicMuseum =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_CableClub =
-{
+const struct Tileset gTileset_CableClub = {
     .isCompressed = FALSE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_CableClub,
@@ -284,8 +258,7 @@ const struct Tileset gTileset_CableClub =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SeashoreHouse =
-{
+const struct Tileset gTileset_SeashoreHouse = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SeashoreHouse,
@@ -295,8 +268,7 @@ const struct Tileset gTileset_SeashoreHouse =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_PrettyPetalFlowerShop =
-{
+const struct Tileset gTileset_PrettyPetalFlowerShop = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_PrettyPetalFlowerShop,
@@ -306,8 +278,7 @@ const struct Tileset gTileset_PrettyPetalFlowerShop =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_PokemonDayCare =
-{
+const struct Tileset gTileset_PokemonDayCare = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_PokemonDayCare,
@@ -317,8 +288,7 @@ const struct Tileset gTileset_PokemonDayCare =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Facility =
-{
+const struct Tileset gTileset_Facility = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Facility,
@@ -328,8 +298,7 @@ const struct Tileset gTileset_Facility =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BikeShop =
-{
+const struct Tileset gTileset_BikeShop = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BikeShop,
@@ -339,8 +308,7 @@ const struct Tileset gTileset_BikeShop =
     .callback = InitTilesetAnim_BikeShop,
 };
 
-const struct Tileset gTileset_RusturfTunnel =
-{
+const struct Tileset gTileset_RusturfTunnel = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_RusturfTunnel,
@@ -350,8 +318,7 @@ const struct Tileset gTileset_RusturfTunnel =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SecretBaseBrownCave =
-{
+const struct Tileset gTileset_SecretBaseBrownCave = {
     .isCompressed = FALSE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SecretBaseBrownCave,
@@ -361,8 +328,7 @@ const struct Tileset gTileset_SecretBaseBrownCave =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SecretBaseTree =
-{
+const struct Tileset gTileset_SecretBaseTree = {
     .isCompressed = FALSE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SecretBaseTree,
@@ -372,8 +338,7 @@ const struct Tileset gTileset_SecretBaseTree =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SecretBaseShrub =
-{
+const struct Tileset gTileset_SecretBaseShrub = {
     .isCompressed = FALSE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SecretBaseShrub,
@@ -383,8 +348,7 @@ const struct Tileset gTileset_SecretBaseShrub =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SecretBaseBlueCave =
-{
+const struct Tileset gTileset_SecretBaseBlueCave = {
     .isCompressed = FALSE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SecretBaseBlueCave,
@@ -394,8 +358,7 @@ const struct Tileset gTileset_SecretBaseBlueCave =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SecretBaseYellowCave =
-{
+const struct Tileset gTileset_SecretBaseYellowCave = {
     .isCompressed = FALSE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SecretBaseYellowCave,
@@ -405,8 +368,7 @@ const struct Tileset gTileset_SecretBaseYellowCave =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SecretBaseRedCave =
-{
+const struct Tileset gTileset_SecretBaseRedCave = {
     .isCompressed = FALSE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SecretBaseRedCave,
@@ -416,8 +378,7 @@ const struct Tileset gTileset_SecretBaseRedCave =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_InsideOfTruck =
-{
+const struct Tileset gTileset_InsideOfTruck = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_InsideOfTruck,
@@ -427,8 +388,7 @@ const struct Tileset gTileset_InsideOfTruck =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Unused2 =
-{
+const struct Tileset gTileset_Unused2 = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Unused2,
@@ -438,8 +398,7 @@ const struct Tileset gTileset_Unused2 =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Contest =
-{
+const struct Tileset gTileset_Contest = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Contest,
@@ -449,8 +408,7 @@ const struct Tileset gTileset_Contest =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_LilycoveMuseum =
-{
+const struct Tileset gTileset_LilycoveMuseum = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_LilycoveMuseum,
@@ -460,8 +418,7 @@ const struct Tileset gTileset_LilycoveMuseum =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BrendansMaysHouse =
-{
+const struct Tileset gTileset_BrendansMaysHouse = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BrendansMaysHouse,
@@ -471,8 +428,7 @@ const struct Tileset gTileset_BrendansMaysHouse =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Lab =
-{
+const struct Tileset gTileset_Lab = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Lab,
@@ -482,8 +438,7 @@ const struct Tileset gTileset_Lab =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_Underwater =
-{
+const struct Tileset gTileset_Underwater = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_Underwater,
@@ -493,8 +448,7 @@ const struct Tileset gTileset_Underwater =
     .callback = InitTilesetAnim_Underwater,
 };
 
-const struct Tileset gTileset_PetalburgGym =
-{
+const struct Tileset gTileset_PetalburgGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_PetalburgGym,
@@ -504,8 +458,7 @@ const struct Tileset gTileset_PetalburgGym =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SootopolisGym =
-{
+const struct Tileset gTileset_SootopolisGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_SootopolisGym,
@@ -515,8 +468,7 @@ const struct Tileset gTileset_SootopolisGym =
     .callback = InitTilesetAnim_SootopolisGym,
 };
 
-const struct Tileset gTileset_GenericBuilding =
-{
+const struct Tileset gTileset_GenericBuilding = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_GenericBuilding,
@@ -526,8 +478,7 @@ const struct Tileset gTileset_GenericBuilding =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_MauvilleGameCorner =
-{
+const struct Tileset gTileset_MauvilleGameCorner = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_MauvilleGameCorner,
@@ -537,8 +488,7 @@ const struct Tileset gTileset_MauvilleGameCorner =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_RustboroGym =
-{
+const struct Tileset gTileset_RustboroGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_RustboroGym,
@@ -548,8 +498,7 @@ const struct Tileset gTileset_RustboroGym =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_DewfordGym =
-{
+const struct Tileset gTileset_DewfordGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_DewfordGym,
@@ -559,8 +508,7 @@ const struct Tileset gTileset_DewfordGym =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_MauvilleGym =
-{
+const struct Tileset gTileset_MauvilleGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_MauvilleGym,
@@ -570,8 +518,7 @@ const struct Tileset gTileset_MauvilleGym =
     .callback = InitTilesetAnim_MauvilleGym,
 };
 
-const struct Tileset gTileset_LavaridgeGym =
-{
+const struct Tileset gTileset_LavaridgeGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_LavaridgeGym,
@@ -581,8 +528,7 @@ const struct Tileset gTileset_LavaridgeGym =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_TrickHousePuzzle =
-{
+const struct Tileset gTileset_TrickHousePuzzle = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_TrickHousePuzzle,
@@ -592,8 +538,7 @@ const struct Tileset gTileset_TrickHousePuzzle =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_FortreeGym =
-{
+const struct Tileset gTileset_FortreeGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_FortreeGym,
@@ -603,8 +548,7 @@ const struct Tileset gTileset_FortreeGym =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_MossdeepGym =
-{
+const struct Tileset gTileset_MossdeepGym = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_MossdeepGym,
@@ -614,8 +558,7 @@ const struct Tileset gTileset_MossdeepGym =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_InsideShip =
-{
+const struct Tileset gTileset_InsideShip = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_InsideShip,
@@ -625,8 +568,7 @@ const struct Tileset gTileset_InsideShip =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_SecretBase =
-{
+const struct Tileset gTileset_SecretBase = {
     .isCompressed = FALSE,
     .isSecondary = FALSE,
     .tiles = gTilesetTiles_SecretBase,
@@ -636,11 +578,11 @@ const struct Tileset gTileset_SecretBase =
     .callback = NULL,
 };
 
-const struct Tileset * const gTilesetPointer_SecretBase = &gTileset_SecretBase;
-const struct Tileset * const gTilesetPointer_SecretBaseRedCave = &gTileset_SecretBaseRedCave;
+const struct Tileset *const gTilesetPointer_SecretBase = &gTileset_SecretBase;
+const struct Tileset *const gTilesetPointer_SecretBaseRedCave =
+    &gTileset_SecretBaseRedCave;
 
-const struct Tileset gTileset_EliteFour =
-{
+const struct Tileset gTileset_EliteFour = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_EliteFour,
@@ -650,8 +592,7 @@ const struct Tileset gTileset_EliteFour =
     .callback = InitTilesetAnim_EliteFour,
 };
 
-const struct Tileset gTileset_BattleFrontier =
-{
+const struct Tileset gTileset_BattleFrontier = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleFrontier,
@@ -661,8 +602,7 @@ const struct Tileset gTileset_BattleFrontier =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BattlePalace =
-{
+const struct Tileset gTileset_BattlePalace = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattlePalace,
@@ -672,8 +612,7 @@ const struct Tileset gTileset_BattlePalace =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BattleDome =
-{
+const struct Tileset gTileset_BattleDome = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleDome,
@@ -683,8 +622,7 @@ const struct Tileset gTileset_BattleDome =
     .callback = InitTilesetAnim_BattleDome,
 };
 
-const struct Tileset gTileset_BattleFactory =
-{
+const struct Tileset gTileset_BattleFactory = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleFactory,
@@ -694,8 +632,7 @@ const struct Tileset gTileset_BattleFactory =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BattlePike =
-{
+const struct Tileset gTileset_BattlePike = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattlePike,
@@ -705,8 +642,7 @@ const struct Tileset gTileset_BattlePike =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BattleArena =
-{
+const struct Tileset gTileset_BattleArena = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleArena,
@@ -716,8 +652,7 @@ const struct Tileset gTileset_BattleArena =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BattlePyramid =
-{
+const struct Tileset gTileset_BattlePyramid = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattlePyramid,
@@ -727,8 +662,7 @@ const struct Tileset gTileset_BattlePyramid =
     .callback = InitTilesetAnim_BattlePyramid,
 };
 
-const struct Tileset gTileset_MirageTower =
-{
+const struct Tileset gTileset_MirageTower = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_MirageTower,
@@ -738,8 +672,7 @@ const struct Tileset gTileset_MirageTower =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_MossdeepGameCorner =
-{
+const struct Tileset gTileset_MossdeepGameCorner = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_MossdeepGameCorner,
@@ -749,8 +682,7 @@ const struct Tileset gTileset_MossdeepGameCorner =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_IslandHarbor =
-{
+const struct Tileset gTileset_IslandHarbor = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_IslandHarbor,
@@ -760,8 +692,7 @@ const struct Tileset gTileset_IslandHarbor =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_TrainerHill =
-{
+const struct Tileset gTileset_TrainerHill = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_TrainerHill,
@@ -771,8 +702,7 @@ const struct Tileset gTileset_TrainerHill =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_NavelRock =
-{
+const struct Tileset gTileset_NavelRock = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_NavelRock,
@@ -782,8 +712,7 @@ const struct Tileset gTileset_NavelRock =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BattleFrontierRankingHall =
-{
+const struct Tileset gTileset_BattleFrontierRankingHall = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleFrontierRankingHall,
@@ -793,8 +722,7 @@ const struct Tileset gTileset_BattleFrontierRankingHall =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_BattleTent =
-{
+const struct Tileset gTileset_BattleTent = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_BattleTent,
@@ -804,8 +732,7 @@ const struct Tileset gTileset_BattleTent =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_MysteryEventsHouse =
-{
+const struct Tileset gTileset_MysteryEventsHouse = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_MysteryEventsHouse,
@@ -815,8 +742,7 @@ const struct Tileset gTileset_MysteryEventsHouse =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_UnionRoom =
-{
+const struct Tileset gTileset_UnionRoom = {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
     .tiles = gTilesetTiles_UnionRoom,

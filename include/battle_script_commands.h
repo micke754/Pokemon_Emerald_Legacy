@@ -5,7 +5,7 @@
 
 // Arguments for 'flags' in HandleBattleWindow
 #define WINDOW_CLEAR (1 << 0)
-#define WINDOW_BG1   (1 << 7)
+#define WINDOW_BG1 (1 << 7)
 
 // Arguments for 'xStart, yStart, xEnd, yEnd' in HandleBattleWindow
 #define YESNOBOX_X_Y 24, 8, 29, 13
@@ -21,7 +21,7 @@ void BufferMoveToLearnIntoBattleTextBuff2(void);
 void HandleBattleWindow(u8 xStart, u8 yStart, u8 xEnd, u8 yEnd, u8 flags);
 bool8 UproarWakeUpCheck(u8 battlerId);
 
-extern void (* const gBattleScriptingCommandsTable[])(void);
+extern void (*const gBattleScriptingCommandsTable[])(void);
 extern const u8 gBattlePalaceNatureToMoveGroupLikelihood[NUM_NATURES][4];
 
 #endif // GUARD_BATTLE_SCRIPT_COMMANDS_H

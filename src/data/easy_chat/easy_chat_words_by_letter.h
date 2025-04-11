@@ -22,8 +22,7 @@ const u16 gEasyChatWordsByLetter_A[] = {
     EC_WORD_A_TINY_BIT,
     EC_WORD_ABOUT,
     EC_WORD_ABOVE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(ABRA),
+    DOUBLE_SPECIES_NAME EC_POKEMON(ABRA),
     EC_POKEMON_NATIONAL(ABRA),
     EC_WORD_ABSENT,
     EC_POKEMON(ABSOL),
@@ -49,8 +48,7 @@ const u16 gEasyChatWordsByLetter_A[] = {
     EC_MOVE(AIR_CUTTER),
     EC_WORD_AIR_LOCK,
     EC_WORD_AIYEEH,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(ALAKAZAM),
+    DOUBLE_SPECIES_NAME EC_POKEMON(ALAKAZAM),
     EC_POKEMON_NATIONAL(ALAKAZAM),
     EC_WORD_ALL,
     EC_WORD_ALL_RIGHT,
@@ -115,8 +113,7 @@ const u16 gEasyChatWordsByLetter_A[] = {
     EC_WORD_AWFUL,
     EC_WORD_AWFULLY,
     EC_WORD_AWW,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(AZUMARILL),
+    DOUBLE_SPECIES_NAME EC_POKEMON(AZUMARILL),
     EC_POKEMON_NATIONAL(AZUMARILL),
     EC_POKEMON(AZURILL),
 };
@@ -157,8 +154,7 @@ const u16 gEasyChatWordsByLetter_B[] = {
     EC_WORD_BEING,
     EC_POKEMON(BELDUM),
     EC_WORD_BELIEVE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(BELLOSSOM),
+    DOUBLE_SPECIES_NAME EC_POKEMON(BELLOSSOM),
     EC_POKEMON_NATIONAL(BELLOSSOM),
     EC_POKEMON_NATIONAL(BELLSPROUT),
     EC_MOVE2(BELLY_DRUM),
@@ -248,8 +244,7 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_WORD_CHILD_S_PLAY,
     EC_WORD_CHILDREN,
     EC_POKEMON(CHIMECHO),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(CHINCHOU),
+    DOUBLE_SPECIES_NAME EC_POKEMON(CHINCHOU),
     EC_POKEMON_NATIONAL(CHINCHOU),
     EC_WORD_CHLOROPHYLL,
     EC_WORD_CHOICE,
@@ -294,8 +289,7 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_WORD_COOLNESS,
     EC_POKEMON(CORPHISH),
     EC_WORD_CORRECT,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(CORSOLA),
+    DOUBLE_SPECIES_NAME EC_POKEMON(CORSOLA),
     EC_POKEMON_NATIONAL(CORSOLA),
     EC_MOVE(COSMIC_POWER),
     EC_MOVE2(COTTON_SPORE),
@@ -309,8 +303,7 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_POKEMON(CRADILY),
     EC_POKEMON(CRAWDAUNT),
     EC_WORD_CRIES,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(CROBAT),
+    DOUBLE_SPECIES_NAME EC_POKEMON(CROBAT),
     EC_POKEMON_NATIONAL(CROBAT),
     EC_POKEMON_NATIONAL(CROCONAW),
     EC_MOVE(CROSS_CHOP),
@@ -379,18 +372,15 @@ const u16 gEasyChatWordsByLetter_D[] = {
     EC_MOVE2(DIZZY_PUNCH),
     EC_WORD_DO,
     EC_WORD_DOCILE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(DODRIO),
+    DOUBLE_SPECIES_NAME EC_POKEMON(DODRIO),
     EC_POKEMON_NATIONAL(DODRIO),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(DODUO),
+    DOUBLE_SPECIES_NAME EC_POKEMON(DODUO),
     EC_POKEMON_NATIONAL(DODUO),
     EC_WORD_DOES,
     EC_WORD_DOESN_T,
     EC_WORD_DON_T,
     EC_WORD_DONE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(DONPHAN),
+    DOUBLE_SPECIES_NAME EC_POKEMON(DONPHAN),
     EC_POKEMON_NATIONAL(DONPHAN),
     EC_MOVE2(DOOM_DESIRE),
     EC_MOVE2(DOUBLE_KICK),
@@ -443,8 +433,7 @@ const u16 gEasyChatWordsByLetter_E[] = {
     EC_POKEMON_NATIONAL(ELECTABUZZ),
     EC_WORD_ELECTRIC,
     EC_POKEMON(ELECTRIKE),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(ELECTRODE),
+    DOUBLE_SPECIES_NAME EC_POKEMON(ELECTRODE),
     EC_POKEMON_NATIONAL(ELECTRODE),
     EC_POKEMON_NATIONAL(ELEKID),
     EC_WORD_ELSE,
@@ -575,8 +564,7 @@ const u16 gEasyChatWordsByLetter_G[] = {
     EC_POKEMON_NATIONAL(GASTLY),
     EC_POKEMON_NATIONAL(GENGAR),
     EC_WORD_GENIUS,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GEODUDE),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GEODUDE),
     EC_POKEMON_NATIONAL(GEODUDE),
     EC_WORD_GET,
     EC_WORD_GETS,
@@ -585,8 +573,7 @@ const u16 gEasyChatWordsByLetter_G[] = {
     EC_MOVE(GIGA_DRAIN),
     EC_WORD_GIGGLE,
     EC_WORD_GIMME,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GIRAFARIG),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GIRAFARIG),
     EC_POKEMON_NATIONAL(GIRAFARIG),
     EC_WORD_GIRL,
     EC_WORD_GIVE,
@@ -596,8 +583,7 @@ const u16 gEasyChatWordsByLetter_G[] = {
     EC_POKEMON(GLALIE),
     EC_MOVE2(GLARE),
     EC_POKEMON_NATIONAL(GLIGAR),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GLOOM),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GLOOM),
     EC_POKEMON_NATIONAL(GLOOM),
     EC_WORD_GO,
     EC_WORD_GO_AHEAD,
@@ -605,18 +591,14 @@ const u16 gEasyChatWordsByLetter_G[] = {
     EC_WORD_GO_HOME,
     EC_WORD_GOES,
     EC_WORD_GOING,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GOLBAT),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GOLBAT),
     EC_POKEMON_NATIONAL(GOLBAT),
     EC_WORD_GOLD,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GOLDEEN),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GOLDEEN),
     EC_POKEMON_NATIONAL(GOLDEEN),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GOLDUCK),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GOLDUCK),
     EC_POKEMON_NATIONAL(GOLDUCK),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GOLEM),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GOLEM),
     EC_POKEMON_NATIONAL(GOLEM),
     EC_WORD_GOOD,
     EC_WORD_GOOD_BYE,
@@ -630,13 +612,11 @@ const u16 gEasyChatWordsByLetter_G[] = {
     EC_WORD_GRANDMOTHER,
     EC_WORD_GRASS,
     EC_MOVE(GRASS_WHISTLE),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GRAVELER),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GRAVELER),
     EC_POKEMON_NATIONAL(GRAVELER),
     EC_WORD_GREAT,
     EC_WORD_GREEN,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GRIMER),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GRIMER),
     EC_POKEMON_NATIONAL(GRIMER),
     EC_POKEMON(GROUDON),
     EC_WORD_GROUND,
@@ -655,8 +635,7 @@ const u16 gEasyChatWordsByLetter_G[] = {
     EC_WORD_GUTSY,
     EC_WORD_GWAH,
     EC_WORD_GWAHAHAHA,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(GYARADOS),
+    DOUBLE_SPECIES_NAME EC_POKEMON(GYARADOS),
     EC_POKEMON_NATIONAL(GYARADOS),
 };
 
@@ -695,8 +674,7 @@ const u16 gEasyChatWordsByLetter_H[] = {
     EC_WORD_HELLO,
     EC_MOVE2(HELPING_HAND),
     EC_WORD_HER,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(HERACROSS),
+    DOUBLE_SPECIES_NAME EC_POKEMON(HERACROSS),
     EC_POKEMON_NATIONAL(HERACROSS),
     EC_WORD_HERE,
     EC_WORD_HERE_GOES,
@@ -734,8 +712,7 @@ const u16 gEasyChatWordsByLetter_H[] = {
     EC_POKEMON_NATIONAL(HOPPIP),
     EC_MOVE2(HORN_ATTACK),
     EC_MOVE2(HORN_DRILL),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(HORSEA),
+    DOUBLE_SPECIES_NAME EC_POKEMON(HORSEA),
     EC_POKEMON_NATIONAL(HORSEA),
     EC_WORD_HOT,
     EC_POKEMON_NATIONAL(HOUNDOOM),
@@ -779,8 +756,7 @@ const u16 gEasyChatWordsByLetter_I[] = {
     EC_WORD_IF,
     EC_WORD_IF_I_LOSE,
     EC_WORD_IF_I_WIN,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(IGGLYBUFF),
+    DOUBLE_SPECIES_NAME EC_POKEMON(IGGLYBUFF),
     EC_POKEMON_NATIONAL(IGGLYBUFF),
     EC_WORD_IGNORANT,
     EC_WORD_ILLUMINATE,
@@ -813,8 +789,7 @@ const u16 gEasyChatWordsByLetter_I[] = {
 };
 
 const u16 gEasyChatWordsByLetter_J[] = {
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(JIGGLYPUFF),
+    DOUBLE_SPECIES_NAME EC_POKEMON(JIGGLYPUFF),
     EC_POKEMON_NATIONAL(JIGGLYPUFF),
     EC_POKEMON(JIRACHI),
     EC_WORD_JOKING,
@@ -830,8 +805,7 @@ const u16 gEasyChatWordsByLetter_J[] = {
 const u16 gEasyChatWordsByLetter_K[] = {
     EC_POKEMON_NATIONAL(KABUTO),
     EC_POKEMON_NATIONAL(KABUTOPS),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(KADABRA),
+    DOUBLE_SPECIES_NAME EC_POKEMON(KADABRA),
     EC_POKEMON_NATIONAL(KADABRA),
     EC_POKEMON_NATIONAL(KAKUNA),
     EC_POKEMON_NATIONAL(KANGASKHAN),
@@ -843,8 +817,7 @@ const u16 gEasyChatWordsByLetter_K[] = {
     EC_WORD_KIND,
     EC_WORD_KINDERGARTEN,
     EC_MOVE(KINESIS),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(KINGDRA),
+    DOUBLE_SPECIES_NAME EC_POKEMON(KINGDRA),
     EC_POKEMON_NATIONAL(KINGDRA),
     EC_POKEMON_NATIONAL(KINGLER),
     EC_POKEMON(KIRLIA),
@@ -852,8 +825,7 @@ const u16 gEasyChatWordsByLetter_K[] = {
     EC_WORD_KNOCKOUT,
     EC_WORD_KNOW,
     EC_WORD_KNOWS,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(KOFFING),
+    DOUBLE_SPECIES_NAME EC_POKEMON(KOFFING),
     EC_POKEMON_NATIONAL(KOFFING),
     EC_POKEMON_NATIONAL(KRABBY),
     EC_WORD_KTHX_BYE,
@@ -866,8 +838,7 @@ const u16 gEasyChatWordsByLetter_L[] = {
     EC_WORD_LADY,
     EC_POKEMON(LAIRON),
     EC_WORD_LALALA,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(LANTURN),
+    DOUBLE_SPECIES_NAME EC_POKEMON(LANTURN),
     EC_POKEMON_NATIONAL(LANTURN),
     EC_POKEMON_NATIONAL(LAPRAS),
     EC_POKEMON_NATIONAL(LARVITAR),
@@ -946,34 +917,27 @@ const u16 gEasyChatWordsByLetter_L[] = {
 
 const u16 gEasyChatWordsByLetter_M[] = {
     EC_MOVE2(MACH_PUNCH),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MACHAMP),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MACHAMP),
     EC_POKEMON_NATIONAL(MACHAMP),
     EC_WORD_MACHINE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MACHOKE),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MACHOKE),
     EC_POKEMON_NATIONAL(MACHOKE),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MACHOP),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MACHOP),
     EC_POKEMON_NATIONAL(MACHOP),
     EC_WORD_MAGAZINE,
     EC_POKEMON_NATIONAL(MAGBY),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MAGCARGO),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MAGCARGO),
     EC_POKEMON_NATIONAL(MAGCARGO),
     EC_MOVE2(MAGIC_COAT),
     EC_MOVE2(MAGICAL_LEAF),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MAGIKARP),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MAGIKARP),
     EC_POKEMON_NATIONAL(MAGIKARP),
     EC_WORD_MAGMA_ARMOR,
     EC_POKEMON_NATIONAL(MAGMAR),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MAGNEMITE),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MAGNEMITE),
     EC_POKEMON_NATIONAL(MAGNEMITE),
     EC_WORD_MAGNET_PULL,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MAGNETON),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MAGNETON),
     EC_POKEMON_NATIONAL(MAGNETON),
     EC_MOVE2(MAGNITUDE),
     EC_WORD_MAIL,
@@ -985,8 +949,7 @@ const u16 gEasyChatWordsByLetter_M[] = {
     EC_POKEMON_NATIONAL(MANKEY),
     EC_POKEMON_NATIONAL(MANTINE),
     EC_POKEMON_NATIONAL(MAREEP),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MARILL),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MARILL),
     EC_POKEMON_NATIONAL(MARILL),
     EC_POKEMON_NATIONAL(MAROWAK),
     EC_POKEMON(MARSHTOMP),
@@ -1069,8 +1032,7 @@ const u16 gEasyChatWordsByLetter_M[] = {
     EC_MOVE2(MUDDY_WATER),
     EC_POKEMON(MUDKIP),
     EC_WORD_MUFUFU,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(MUK),
+    DOUBLE_SPECIES_NAME EC_POKEMON(MUK),
     EC_POKEMON_NATIONAL(MUK),
     EC_POKEMON_NATIONAL(MURKROW),
     EC_WORD_MUSIC,
@@ -1083,8 +1045,7 @@ const u16 gEasyChatWordsByLetter_M[] = {
 const u16 gEasyChatWordsByLetter_N[] = {
     EC_WORD_NAME,
     EC_WORD_NAP,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(NATU),
+    DOUBLE_SPECIES_NAME EC_POKEMON(NATU),
     EC_POKEMON_NATIONAL(NATU),
     EC_WORD_NATURAL,
     EC_WORD_NATURAL_CURE,
@@ -1112,8 +1073,7 @@ const u16 gEasyChatWordsByLetter_N[] = {
     EC_MOVE(NIGHTMARE),
     EC_WORD_NIGHTTIME,
     EC_POKEMON(NINCADA),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(NINETALES),
+    DOUBLE_SPECIES_NAME EC_POKEMON(NINETALES),
     EC_POKEMON_NATIONAL(NINETALES),
     EC_POKEMON(NINJASK),
     EC_WORD_NITWIT,
@@ -1139,8 +1099,7 @@ const u16 gEasyChatWordsByLetter_O[] = {
     EC_WORD_OBLIVIOUS,
     EC_MOVE(OCTAZOOKA),
     EC_POKEMON_NATIONAL(OCTILLERY),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(ODDISH),
+    DOUBLE_SPECIES_NAME EC_POKEMON(ODDISH),
     EC_POKEMON_NATIONAL(ODDISH),
     EC_MOVE(ODOR_SLEUTH),
     EC_WORD_OF,
@@ -1200,25 +1159,21 @@ const u16 gEasyChatWordsByLetter_P[] = {
     EC_POKEMON_NATIONAL(PERSIAN),
     EC_WORD_PERSON,
     EC_MOVE2(PETAL_DANCE),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(PHANPY),
+    DOUBLE_SPECIES_NAME EC_POKEMON(PHANPY),
     EC_POKEMON_NATIONAL(PHANPY),
     EC_WORD_PHONE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(PICHU),
+    DOUBLE_SPECIES_NAME EC_POKEMON(PICHU),
     EC_POKEMON_NATIONAL(PICHU),
     EC_WORD_PICKUP,
     EC_POKEMON_NATIONAL(PIDGEOT),
     EC_POKEMON_NATIONAL(PIDGEOTTO),
     EC_POKEMON_NATIONAL(PIDGEY),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(PIKACHU),
+    DOUBLE_SPECIES_NAME EC_POKEMON(PIKACHU),
     EC_POKEMON_NATIONAL(PIKACHU),
     EC_POKEMON_NATIONAL(PILOSWINE),
     EC_MOVE2(PIN_MISSILE),
     EC_POKEMON_NATIONAL(PINECO),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(PINSIR),
+    DOUBLE_SPECIES_NAME EC_POKEMON(PINSIR),
     EC_POKEMON_NATIONAL(PINSIR),
     EC_WORD_PKRS,
     EC_WORD_PLACE,
@@ -1266,12 +1221,10 @@ const u16 gEasyChatWordsByLetter_P[] = {
     EC_MOVE2(PROTECT),
     EC_MOVE(PSYBEAM),
     EC_MOVE(PSYCH_UP),
-    DOUBLE_SPECIES_NAME
-    EC_WORD_PSYCHIC,
+    DOUBLE_SPECIES_NAME EC_WORD_PSYCHIC,
     EC_MOVE(PSYCHIC),
     EC_MOVE(PSYCHO_BOOST),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(PSYDUCK),
+    DOUBLE_SPECIES_NAME EC_POKEMON(PSYDUCK),
     EC_POKEMON_NATIONAL(PSYDUCK),
     EC_MOVE(PSYWAVE),
     EC_POKEMON_NATIONAL(PUPITAR),
@@ -1292,8 +1245,7 @@ const u16 gEasyChatWordsByLetter_Q[] = {
 const u16 gEasyChatWordsByLetter_R[] = {
     EC_WORD_RADIO,
     EC_MOVE(RAGE),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(RAICHU),
+    DOUBLE_SPECIES_NAME EC_POKEMON(RAICHU),
     EC_POKEMON_NATIONAL(RAICHU),
     EC_POKEMON_NATIONAL(RAIKOU),
     EC_MOVE(RAIN_DANCE),
@@ -1334,11 +1286,9 @@ const u16 gEasyChatWordsByLetter_R[] = {
     EC_MOVE(RETURN),
     EC_MOVE2(REVENGE),
     EC_MOVE(REVERSAL),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(RHYDON),
+    DOUBLE_SPECIES_NAME EC_POKEMON(RHYDON),
     EC_POKEMON_NATIONAL(RHYDON),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(RHYHORN),
+    DOUBLE_SPECIES_NAME EC_POKEMON(RHYHORN),
     EC_POKEMON_NATIONAL(RHYHORN),
     EC_WORD_RIBBON,
     EC_WORD_RICKETY,
@@ -1381,11 +1331,9 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_MOVE(SAND_TOMB),
     EC_WORD_SAND_VEIL,
     EC_MOVE(SAND_ATTACK),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(SANDSHREW),
+    DOUBLE_SPECIES_NAME EC_POKEMON(SANDSHREW),
     EC_POKEMON_NATIONAL(SANDSHREW),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(SANDSLASH),
+    DOUBLE_SPECIES_NAME EC_POKEMON(SANDSLASH),
     EC_POKEMON_NATIONAL(SANDSLASH),
     EC_MOVE(SANDSTORM),
     EC_WORD_SAPPHIRE,
@@ -1401,11 +1349,9 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_MOVE2(SCRATCH),
     EC_MOVE(SCREECH),
     EC_POKEMON_NATIONAL(SCYTHER),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(SEADRA),
+    DOUBLE_SPECIES_NAME EC_POKEMON(SEADRA),
     EC_POKEMON_NATIONAL(SEADRA),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(SEAKING),
+    DOUBLE_SPECIES_NAME EC_POKEMON(SEAKING),
     EC_POKEMON_NATIONAL(SEAKING),
     EC_POKEMON(SEALEO),
     EC_WORD_SEARCH,
@@ -1470,8 +1416,7 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_MOVE(SING),
     EC_WORD_SINK,
     EC_WORD_SISTER,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(SKARMORY),
+    DOUBLE_SPECIES_NAME EC_POKEMON(SKARMORY),
     EC_POKEMON_NATIONAL(SKARMORY),
     EC_MOVE(SKETCH),
     EC_WORD_SKILL,
@@ -1498,8 +1443,7 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_POKEMON_NATIONAL(SLOWPOKE),
     EC_MOVE2(SLUDGE),
     EC_MOVE2(SLUDGE_BOMB),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(SLUGMA),
+    DOUBLE_SPECIES_NAME EC_POKEMON(SLUGMA),
     EC_POKEMON_NATIONAL(SLUGMA),
     EC_WORD_SMACK,
     EC_WORD_SMALL,
@@ -1561,12 +1505,10 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_POKEMON_NATIONAL(SQUIRTLE),
     EC_WORD_STAGE,
     EC_POKEMON_NATIONAL(STANTLER),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(STARMIE),
+    DOUBLE_SPECIES_NAME EC_POKEMON(STARMIE),
     EC_POKEMON_NATIONAL(STARMIE),
     EC_WORD_START,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(STARYU),
+    DOUBLE_SPECIES_NAME EC_POKEMON(STARYU),
     EC_POKEMON_NATIONAL(STARYU),
     EC_WORD_STATIC,
     EC_WORD_STAY_AT_HOME,
@@ -1649,11 +1591,9 @@ const u16 gEasyChatWordsByLetter_T[] = {
     EC_MOVE2(TEETER_DANCE),
     EC_MOVE2(TELEPORT),
     EC_WORD_TELEVISION,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(TENTACOOL),
+    DOUBLE_SPECIES_NAME EC_POKEMON(TENTACOOL),
     EC_POKEMON_NATIONAL(TENTACOOL),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(TENTACRUEL),
+    DOUBLE_SPECIES_NAME EC_POKEMON(TENTACRUEL),
     EC_POKEMON_NATIONAL(TENTACRUEL),
     EC_WORD_TERRIBLE,
     EC_WORD_TEST,
@@ -1802,8 +1742,7 @@ const u16 gEasyChatWordsByLetter_V[] = {
     EC_POKEMON_NATIONAL(VICTREEBEL),
     EC_WORD_VIEWING,
     EC_POKEMON(VIGOROTH),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(VILEPLUME),
+    DOUBLE_SPECIES_NAME EC_POKEMON(VILEPLUME),
     EC_POKEMON_NATIONAL(VILEPLUME),
     EC_MOVE2(VINE_WHIP),
     EC_WORD_VITAL_SPIRIT,
@@ -1811,12 +1750,10 @@ const u16 gEasyChatWordsByLetter_V[] = {
     EC_POKEMON(VOLBEAT),
     EC_WORD_VOLT_ABSORB,
     EC_MOVE2(VOLT_TACKLE),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(VOLTORB),
+    DOUBLE_SPECIES_NAME EC_POKEMON(VOLTORB),
     EC_POKEMON_NATIONAL(VOLTORB),
     EC_WORD_VORACIOUS,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(VULPIX),
+    DOUBLE_SPECIES_NAME EC_POKEMON(VULPIX),
     EC_POKEMON_NATIONAL(VULPIX),
 };
 
@@ -1858,8 +1795,7 @@ const u16 gEasyChatWordsByLetter_W[] = {
     EC_POKEMON_NATIONAL(WEEDLE),
     EC_WORD_WEEK,
     EC_POKEMON_NATIONAL(WEEPINBELL),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(WEEZING),
+    DOUBLE_SPECIES_NAME EC_POKEMON(WEEZING),
     EC_POKEMON_NATIONAL(WEEZING),
     EC_WORD_WEIRD,
     EC_WORD_WELCOME,
@@ -1887,8 +1823,7 @@ const u16 gEasyChatWordsByLetter_W[] = {
     EC_WORD_WHOM,
     EC_WORD_WHOSE,
     EC_WORD_WHY,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(WIGGLYTUFF),
+    DOUBLE_SPECIES_NAME EC_POKEMON(WIGGLYTUFF),
     EC_POKEMON_NATIONAL(WIGGLYTUFF),
     EC_WORD_WILD,
     EC_WORD_WILL,
@@ -1907,8 +1842,7 @@ const u16 gEasyChatWordsByLetter_W[] = {
     EC_MOVE(WITHDRAW),
     EC_WORD_WITHOUT,
     EC_WORD_WOBBLY,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(WOBBUFFET),
+    DOUBLE_SPECIES_NAME EC_POKEMON(WOBBUFFET),
     EC_POKEMON_NATIONAL(WOBBUFFET),
     EC_WORD_WOMAN,
     EC_WORD_WON,
@@ -1932,30 +1866,20 @@ const u16 gEasyChatWordsByLetter_W[] = {
 };
 
 const u16 gEasyChatWordsByLetter_X[] = {
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(XATU),
+    DOUBLE_SPECIES_NAME EC_POKEMON(XATU),
     EC_POKEMON_NATIONAL(XATU),
 };
 
 const u16 gEasyChatWordsByLetter_Y[] = {
-    EC_WORD_YAHOO,
-    EC_POKEMON_NATIONAL(YANMA),
-    EC_MOVE(YAWN),
-    EC_WORD_YAY,
-    EC_WORD_YEAH,
-    EC_WORD_YEAH_YEAH,
-    EC_WORD_YEEHAW_EXCL,
-    EC_WORD_YES,
-    EC_WORD_YES_SIR_EXCL,
-    EC_WORD_YESTERDAY,
-    EC_WORD_YET,
-    EC_WORD_YO,
-    EC_WORD_YOU,
-    EC_WORD_YOU_RE,
-    EC_WORD_YOU_VE,
-    EC_WORD_YOUNG,
-    EC_WORD_YOUR,
-    EC_WORD_YOURS,
+    EC_WORD_YAHOO,        EC_POKEMON_NATIONAL(YANMA),
+    EC_MOVE(YAWN),        EC_WORD_YAY,
+    EC_WORD_YEAH,         EC_WORD_YEAH_YEAH,
+    EC_WORD_YEEHAW_EXCL,  EC_WORD_YES,
+    EC_WORD_YES_SIR_EXCL, EC_WORD_YESTERDAY,
+    EC_WORD_YET,          EC_WORD_YO,
+    EC_WORD_YOU,          EC_WORD_YOU_RE,
+    EC_WORD_YOU_VE,       EC_WORD_YOUNG,
+    EC_WORD_YOUR,         EC_WORD_YOURS,
     EC_WORD_YUP,
 };
 
@@ -1964,8 +1888,7 @@ const u16 gEasyChatWordsByLetter_Z[] = {
     EC_MOVE2(ZAP_CANNON),
     EC_POKEMON_NATIONAL(ZAPDOS),
     EC_POKEMON(ZIGZAGOON),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON(ZUBAT),
+    DOUBLE_SPECIES_NAME EC_POKEMON(ZUBAT),
     EC_POKEMON_NATIONAL(ZUBAT),
 };
 
@@ -1974,8 +1897,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHi[] = {
     EC_WORD_AIYEEH,
     EC_POKEMON_NATIONAL(WEEDLE),
     EC_WORD_HERO,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(PIKACHU),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(PIKACHU),
     EC_POKEMON(PIKACHU),
     EC_MOVE2(LIGHT_SCREEN),
     EC_WORD_SHINE,
@@ -1985,8 +1907,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHi[] = {
     EC_POKEMON_NATIONAL(PIDGEOT),
     EC_POKEMON_NATIONAL(PIDGEOTTO),
     EC_WORD_LEFT,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(PICHU),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(PICHU),
     EC_POKEMON(PICHU),
     EC_MOVE2(SCRATCH),
     EC_WORD_SURPRISE,
@@ -1997,8 +1918,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHi[] = {
     EC_WORD_PERSON,
     EC_WORD_AWFUL,
     EC_POKEMON_NATIONAL(CHARMANDER),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(STARYU),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(STARYU),
     EC_POKEMON(STARYU),
     EC_WORD_ALONE,
     EC_POKEMON_NATIONAL(CYNDAQUIL),
@@ -2013,8 +1933,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHi[] = {
     EC_WORD_HIYAH,
     EC_MOVE2(DIZZY_PUNCH),
     EC_WORD_LIGHTNINGROD,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(VOLTORB),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(VOLTORB),
     EC_POKEMON(VOLTORB),
     EC_WORD_DAYTIME,
     EC_MOVE2(BULK_UP),
@@ -2031,8 +1950,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
     EC_WORD_FEVER,
     EC_MOVE2(IMPRISON),
     EC_POKEMON_NATIONAL(FLAREON),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(ALAKAZAM),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(ALAKAZAM),
     EC_POKEMON(ALAKAZAM),
     EC_POKEMON_NATIONAL(MAGMAR),
     EC_POKEMON(GRUMPIG),
@@ -2040,8 +1958,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
     EC_POKEMON_NATIONAL(FORRETRESS),
     EC_MOVE2(WHIRLWIND),
     EC_WORD_COMPOUNDEYES,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(WIGGLYTUFF),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(WIGGLYTUFF),
     EC_POKEMON(WIGGLYTUFF),
     EC_MOVE2(BEAT_UP),
     EC_WORD_MYSTERY,
@@ -2059,8 +1976,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
     EC_POKEMON_NATIONAL(MAGBY),
     EC_WORD_LOL,
     EC_MOVE2(BLIZZARD),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(IGGLYBUFF),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(IGGLYBUFF),
     EC_POKEMON(IGGLYBUFF),
     EC_WORD_SNORT,
     EC_MOVE2(STOMP),
@@ -2078,8 +1994,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
     EC_WORD_PRETEND,
     EC_POKEMON_NATIONAL(ARTICUNO),
     EC_WORD_WANNABE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(JIGGLYPUFF),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(JIGGLYPUFF),
     EC_POKEMON(JIGGLYPUFF),
     EC_POKEMON_NATIONAL(SNUBBULL),
     EC_WORD_SHAKY,
@@ -2101,19 +2016,16 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHe[] = {
     EC_WORD_BEST,
     EC_WORD_LOUSY,
     EC_WORD_HEHEHE,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(GRIMER),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(GRIMER),
     EC_POKEMON(GRIMER),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(MUK),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(MUK),
     EC_POKEMON(MUK),
     EC_WORD_LIQUID_OOZE,
     EC_MOVE2(SLUDGE),
     EC_MOVE2(SLUDGE_BOMB),
     EC_MOVE2(GLARE),
     EC_WORD_HEH,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(HERACROSS),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(HERACROSS),
     EC_POKEMON(HERACROSS),
     EC_POKEMON(PELIPPER),
     EC_POKEMON_NATIONAL(HOUNDOOM),
@@ -2193,13 +2105,11 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMa[] = {
     EC_WORD_OWN_TEMPO,
     EC_MOVE2(WRAP),
     EC_MOVE2(SPIKES),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(MAGCARGO),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(MAGCARGO),
     EC_POKEMON(MAGCARGO),
     EC_MOVE2(MAGNITUDE),
     EC_POKEMON(MAKUHITA),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(SLUGMA),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(SLUGMA),
     EC_POKEMON(SLUGMA),
     EC_WORD_MAGMA_ARMOR,
     EC_POKEMON_NATIONAL(QUILAVA),
@@ -2219,8 +2129,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMa[] = {
     EC_WORD_TOO,
     EC_WORD_LIKE,
     EC_POKEMON_NATIONAL(BELLSPROUT),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(WEEZING),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(WEEZING),
     EC_POKEMON(WEEZING),
     EC_WORD_SMELL,
     EC_WORD_YET,
@@ -2235,17 +2144,14 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMa[] = {
     EC_WORD_GUARD,
     EC_MOVE2(PROTECT),
     EC_POKEMON(CASCOON),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(MARILL),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(MARILL),
     EC_POKEMON(MARILL),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(AZUMARILL),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(AZUMARILL),
     EC_POKEMON(AZUMARILL),
     EC_MOVE2(DEFENSE_CURL),
     EC_WORD_AS_IF,
     EC_POKEMON(SWALOT),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(ELECTRODE),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(ELECTRODE),
     EC_POKEMON(ELECTRODE),
     EC_MOVE2(ROLLING_KICK),
     EC_WORD_COMICS,
@@ -2295,18 +2201,12 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMi[] = {
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseMu[] = {
-    EC_WORD_MOOD,
-    EC_POKEMON_NATIONAL(MISDREAVUS),
-    EC_WORD_OLDEN,
-    EC_WORD_ARRGH,
-    EC_WORD_BUG,
-    EC_WORD_SWARM,
-    EC_WORD_RATHER,
-    EC_POKEMON_NATIONAL(SMOOCHUM),
-    EC_WORD_INVINCIBLE,
-    EC_WORD_HEART,
-    EC_WORD_MUFUFU,
-    EC_WORD_MMM,
+    EC_WORD_MOOD,       EC_POKEMON_NATIONAL(MISDREAVUS),
+    EC_WORD_OLDEN,      EC_WORD_ARRGH,
+    EC_WORD_BUG,        EC_WORD_SWARM,
+    EC_WORD_RATHER,     EC_POKEMON_NATIONAL(SMOOCHUM),
+    EC_WORD_INVINCIBLE, EC_WORD_HEART,
+    EC_WORD_MUFUFU,     EC_WORD_MMM,
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseMe[] = {
@@ -2327,8 +2227,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMe[] = {
     EC_WORD_DESTROYED,
     EC_WORD_MESSAGE,
     EC_WORD_AWFULLY,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(TENTACOOL),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(TENTACOOL),
     EC_POKEMON(TENTACOOL),
     EC_WORD_FIERY,
     EC_POKEMON_NATIONAL(MAREEP),
@@ -2388,56 +2287,35 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseYa[] = {
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseYu[] = {
-    EC_POKEMON(SNORUNT),
-    EC_WORD_TAKE,
-    EC_WORD_UNION,
-    EC_MOVE2(METRONOME),
-    EC_WORD_DREAM,
-    EC_MOVE2(DREAM_EATER),
-    EC_WORD_ALLOW,
-    EC_WORD_FORGET,
-    EC_POKEMON(CRADILY),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(KADABRA),
+    EC_POKEMON(SNORUNT), EC_WORD_TAKE,
+    EC_WORD_UNION,       EC_MOVE2(METRONOME),
+    EC_WORD_DREAM,       EC_MOVE2(DREAM_EATER),
+    EC_WORD_ALLOW,       EC_WORD_FORGET,
+    EC_POKEMON(CRADILY), DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(KADABRA),
     EC_POKEMON(KADABRA),
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseYo[] = {
-    EC_WORD_WITHOUT,
-    EC_WORD_YO,
-    EC_MOVE2(ACID),
-    EC_WORD_COME_OVER,
-    EC_WORD_KINDERGARTEN,
-    EC_WORD_CHLOROPHYLL,
-    EC_WORD_AFTER,
-    EC_POKEMON_NATIONAL(LARVITAR),
-    EC_WORD_OH_KAY,
-    EC_WORD_BEFORE,
-    EC_WORD_GREAT,
-    EC_MOVE2(MEDITATE),
-    EC_WORD_PURE_POWER,
-    EC_WORD_WELL,
-    EC_MOVE2(SNATCH),
-    EC_WORD_OKAY,
-    EC_WORD_PLANS,
-    EC_WORD_NIGHTTIME,
-    EC_WORD_WHILE,
-    EC_POKEMON(DUSKULL),
-    EC_WORD_EASY,
-    EC_WORD_INSTEAD,
-    EC_WORD_NIGHT,
-    EC_POKEMON_NATIONAL(NOCTOWL),
-    EC_WORD_COUNT_ON,
-    EC_WORD_WEAK,
-    EC_WORD_TOO_WEAK,
-    EC_WORD_WEAKENED,
+    EC_WORD_WITHOUT,      EC_WORD_YO,
+    EC_MOVE2(ACID),       EC_WORD_COME_OVER,
+    EC_WORD_KINDERGARTEN, EC_WORD_CHLOROPHYLL,
+    EC_WORD_AFTER,        EC_POKEMON_NATIONAL(LARVITAR),
+    EC_WORD_OH_KAY,       EC_WORD_BEFORE,
+    EC_WORD_GREAT,        EC_MOVE2(MEDITATE),
+    EC_WORD_PURE_POWER,   EC_WORD_WELL,
+    EC_MOVE2(SNATCH),     EC_WORD_OKAY,
+    EC_WORD_PLANS,        EC_WORD_NIGHTTIME,
+    EC_WORD_WHILE,        EC_POKEMON(DUSKULL),
+    EC_WORD_EASY,         EC_WORD_INSTEAD,
+    EC_WORD_NIGHT,        EC_POKEMON_NATIONAL(NOCTOWL),
+    EC_WORD_COUNT_ON,     EC_WORD_WEAK,
+    EC_WORD_TOO_WEAK,     EC_WORD_WEAKENED,
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseRa[] = {
     EC_POKEMON_NATIONAL(RAIKOU),
     EC_WORD_WEEK,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(RAICHU),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(RAICHU),
     EC_POKEMON(RAICHU),
     EC_WORD_RIVAL,
     EC_WORD_LIFE,
@@ -2456,16 +2334,14 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRa[] = {
     EC_POKEMON(LUVDISC),
     EC_POKEMON_NATIONAL(LAPRAS),
     EC_WORD_LOVEY_DOVEY,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(VILEPLUME),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(VILEPLUME),
     EC_POKEMON(VILEPLUME),
     EC_WORD_LALALA,
     EC_POKEMON(RALTS),
     EC_WORD_FORGETS,
     EC_WORD_APPEARS,
     EC_WORD_RANK,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(LANTURN),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(LANTURN),
     EC_POKEMON(LANTURN),
 };
 
@@ -2504,8 +2380,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRu[] = {
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseRe[] = {
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(MAGNETON),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(MAGNETON),
     EC_POKEMON(MAGNETON),
     EC_MOVE2(ICE_PUNCH),
     EC_MOVE2(ICE_BEAM),
@@ -2524,15 +2399,10 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRe[] = {
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseRo[] = {
-    EC_MOVE2(SKULL_BASH),
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(VULPIX),
-    EC_POKEMON(VULPIX),
-    EC_POKEMON(ROSELIA),
-    EC_MOVE2(LOCK_ON),
-    EC_MOVE2(ROCK_BLAST),
-    EC_WORD_ROMANTIC,
-    EC_WORD_QUESTION,
+    EC_MOVE2(SKULL_BASH), DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(VULPIX),
+    EC_POKEMON(VULPIX),   EC_POKEMON(ROSELIA),
+    EC_MOVE2(LOCK_ON),    EC_MOVE2(ROCK_BLAST),
+    EC_WORD_ROMANTIC,     EC_WORD_QUESTION,
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseWa[] = {
@@ -2565,190 +2435,191 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseWa[] = {
     EC_WORD_ANYWHERE,
     EC_MOVE2(STRUGGLE),
     EC_WORD_BADLY,
-    DOUBLE_SPECIES_NAME
-    EC_POKEMON_NATIONAL(MACHOP),
+    DOUBLE_SPECIES_NAME EC_POKEMON_NATIONAL(MACHOP),
     EC_POKEMON(MACHOP),
 };
 
-const struct EasyChatWordsByLetter gEasyChatWordsByLetterPointers[EC_NUM_ALPHABET_GROUPS + 18] = { // 18 unused JP groups
-    {
-        .words = gEasyChatWordsByLetter_Others,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Others),
-    },
-    {
-        .words = gEasyChatWordsByLetter_A,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_A),
-    },
-    {
-        .words = gEasyChatWordsByLetter_B,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_B),
-    },
-    {
-        .words = gEasyChatWordsByLetter_C,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_C),
-    },
-    {
-        .words = gEasyChatWordsByLetter_D,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_D),
-    },
-    {
-        .words = gEasyChatWordsByLetter_E,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_E),
-    },
-    {
-        .words = gEasyChatWordsByLetter_F,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_F),
-    },
-    {
-        .words = gEasyChatWordsByLetter_G,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_G),
-    },
-    {
-        .words = gEasyChatWordsByLetter_H,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_H),
-    },
-    {
-        .words = gEasyChatWordsByLetter_I,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_I),
-    },
-    {
-        .words = gEasyChatWordsByLetter_J,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_J),
-    },
-    {
-        .words = gEasyChatWordsByLetter_K,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_K),
-    },
-    {
-        .words = gEasyChatWordsByLetter_L,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_L),
-    },
-    {
-        .words = gEasyChatWordsByLetter_M,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_M),
-    },
-    {
-        .words = gEasyChatWordsByLetter_N,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_N),
-    },
-    {
-        .words = gEasyChatWordsByLetter_O,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_O),
-    },
-    {
-        .words = gEasyChatWordsByLetter_P,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_P),
-    },
-    {
-        .words = gEasyChatWordsByLetter_Q,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Q),
-    },
-    {
-        .words = gEasyChatWordsByLetter_R,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_R),
-    },
-    {
-        .words = gEasyChatWordsByLetter_S,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_S),
-    },
-    {
-        .words = gEasyChatWordsByLetter_T,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_T),
-    },
-    {
-        .words = gEasyChatWordsByLetter_U,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_U),
-    },
-    {
-        .words = gEasyChatWordsByLetter_V,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_V),
-    },
-    {
-        .words = gEasyChatWordsByLetter_W,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_W),
-    },
-    {
-        .words = gEasyChatWordsByLetter_X,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_X),
-    },
-    {
-        .words = gEasyChatWordsByLetter_Y,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Y),
-    },
-    {
-        .words = gEasyChatWordsByLetter_Z,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Z),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseHi,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseHi),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseFu,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseFu),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseHe,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseHe),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseHo,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseHo),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseMa,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMa),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseMi,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMi),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseMu,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMu),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseMe,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMe),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseMo,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMo),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseYa,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseYa),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseYu,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseYu),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseYo,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseYo),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseRa,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRa),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseRi,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRi),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseRu,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRu),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseRe,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRe),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseRo,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRo),
-    },
-    {
-        .words = gEasyChatWordsByLetter_UnusedJapaneseWa,
-        .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseWa),
-    },
+const struct EasyChatWordsByLetter
+    gEasyChatWordsByLetterPointers[EC_NUM_ALPHABET_GROUPS + 18] = {
+        // 18 unused JP groups
+        {
+            .words = gEasyChatWordsByLetter_Others,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Others),
+        },
+        {
+            .words = gEasyChatWordsByLetter_A,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_A),
+        },
+        {
+            .words = gEasyChatWordsByLetter_B,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_B),
+        },
+        {
+            .words = gEasyChatWordsByLetter_C,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_C),
+        },
+        {
+            .words = gEasyChatWordsByLetter_D,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_D),
+        },
+        {
+            .words = gEasyChatWordsByLetter_E,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_E),
+        },
+        {
+            .words = gEasyChatWordsByLetter_F,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_F),
+        },
+        {
+            .words = gEasyChatWordsByLetter_G,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_G),
+        },
+        {
+            .words = gEasyChatWordsByLetter_H,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_H),
+        },
+        {
+            .words = gEasyChatWordsByLetter_I,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_I),
+        },
+        {
+            .words = gEasyChatWordsByLetter_J,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_J),
+        },
+        {
+            .words = gEasyChatWordsByLetter_K,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_K),
+        },
+        {
+            .words = gEasyChatWordsByLetter_L,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_L),
+        },
+        {
+            .words = gEasyChatWordsByLetter_M,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_M),
+        },
+        {
+            .words = gEasyChatWordsByLetter_N,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_N),
+        },
+        {
+            .words = gEasyChatWordsByLetter_O,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_O),
+        },
+        {
+            .words = gEasyChatWordsByLetter_P,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_P),
+        },
+        {
+            .words = gEasyChatWordsByLetter_Q,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Q),
+        },
+        {
+            .words = gEasyChatWordsByLetter_R,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_R),
+        },
+        {
+            .words = gEasyChatWordsByLetter_S,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_S),
+        },
+        {
+            .words = gEasyChatWordsByLetter_T,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_T),
+        },
+        {
+            .words = gEasyChatWordsByLetter_U,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_U),
+        },
+        {
+            .words = gEasyChatWordsByLetter_V,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_V),
+        },
+        {
+            .words = gEasyChatWordsByLetter_W,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_W),
+        },
+        {
+            .words = gEasyChatWordsByLetter_X,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_X),
+        },
+        {
+            .words = gEasyChatWordsByLetter_Y,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Y),
+        },
+        {
+            .words = gEasyChatWordsByLetter_Z,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_Z),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseHi,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseHi),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseFu,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseFu),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseHe,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseHe),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseHo,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseHo),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseMa,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMa),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseMi,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMi),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseMu,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMu),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseMe,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMe),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseMo,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseMo),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseYa,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseYa),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseYu,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseYu),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseYo,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseYo),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseRa,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRa),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseRi,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRi),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseRu,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRu),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseRe,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRe),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseRo,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseRo),
+        },
+        {
+            .words = gEasyChatWordsByLetter_UnusedJapaneseWa,
+            .numWords = ARRAY_COUNT(gEasyChatWordsByLetter_UnusedJapaneseWa),
+        },
 };

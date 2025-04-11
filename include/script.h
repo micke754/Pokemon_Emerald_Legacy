@@ -6,22 +6,22 @@ struct ScriptContext;
 typedef bool8 (*ScrCmdFunc)(struct ScriptContext *);
 typedef u8 Script[];
 
-struct ScriptContext
-{
-    u8 stackDepth;
-    u8 mode;
-    u8 comparisonResult;
-    u8 (*nativePtr)(void);
-    const u8 *scriptPtr;
-    const u8 *stack[20];
-    ScrCmdFunc *cmdTable;
-    ScrCmdFunc *cmdTableEnd;
-    u32 data[4];
+struct ScriptContext {
+  u8 stackDepth;
+  u8 mode;
+  u8 comparisonResult;
+  u8 (*nativePtr)(void);
+  const u8 *scriptPtr;
+  const u8 *stack[20];
+  ScrCmdFunc *cmdTable;
+  ScrCmdFunc *cmdTableEnd;
+  u32 data[4];
 };
 
 #define ScriptReadByte(ctx) (*(ctx->scriptPtr++))
 
-void InitScriptContext(struct ScriptContext *ctx, void *cmdTable, void *cmdTableEnd);
+void InitScriptContext(struct ScriptContext *ctx, void *cmdTable,
+                       void *cmdTableEnd);
 u8 SetupBytecodeScript(struct ScriptContext *ctx, const u8 *ptr);
 void SetupNativeScript(struct ScriptContext *ctx, bool8 (*ptr)(void));
 void StopScript(struct ScriptContext *ctx);
@@ -53,7 +53,8 @@ bool8 TryRunOnFrameMapScript(void);
 void TryRunOnWarpIntoMapScript(void);
 u32 CalculateRamScriptChecksum(void);
 void ClearRamScript(void);
-bool8 InitRamScript(const u8 *script, u16 scriptSize, u8 mapGroup, u8 mapNum, u8 objectId);
+bool8 InitRamScript(const u8 *script, u16 scriptSize, u8 mapGroup, u8 mapNum,
+                    u8 objectId);
 const u8 *GetRamScript(u8 objectId, const u8 *script);
 bool32 ValidateSavedRamScript(void);
 u8 *GetSavedRamScriptIfValid(void);

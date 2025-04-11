@@ -22,14 +22,17 @@
 #define LOG_HANDLER_MGBA_PRINT (2)
 
 // Use this switch to choose a handler for pretty printing.
-// NOTE: mini_printf supports a custom pretty printing formatter to display preproc encoded strings. (%S)
-//       some libc distributions (especially dkp arm-libc) will fail to link pretty printing.
+// NOTE: mini_printf supports a custom pretty printing formatter to display
+// preproc encoded strings. (%S)
+//       some libc distributions (especially dkp arm-libc) will fail to link
+//       pretty printing.
 #define PRETTY_PRINT_HANDLER (PRETTY_PRINT_MINI_PRINTF)
 
 // Use this switch to choose a handler for printf output.
-// NOTE: These will only work on the respective emulators and should not be used in a productive environment.
-//       Some emulators or real hardware might (and is allowed to) crash if they are used.
-//       AGB_PRINT is supported on respective debug units.
+// NOTE: These will only work on the respective emulators and should not be used
+// in a productive environment.
+//       Some emulators or real hardware might (and is allowed to) crash if they
+//       are used. AGB_PRINT is supported on respective debug units.
 
 #define LOG_HANDLER (LOG_HANDLER_MGBA_PRINT)
 #endif
@@ -38,14 +41,16 @@
 
 #ifdef ENGLISH
 #define UNITS_IMPERIAL
-#define CHAR_DEC_SEPARATOR CHAR_PERIOD // Period is used as a decimal separator only in the UK and the US.
+#define CHAR_DEC_SEPARATOR                                                     \
+  CHAR_PERIOD // Period is used as a decimal separator only in the UK and the
+              // US.
 #else
 #define UNITS_METRIC
 #define CHAR_DEC_SEPARATOR CHAR_COMMA
 #endif
 
 // Uncomment to fix some identified minor bugs
-//#define BUGFIX
+// #define BUGFIX
 
 // Various undefined behavior bugs may or may not prevent compilation with
 // newer compilers. So always fix them when using a modern compiler.

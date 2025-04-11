@@ -21,99 +21,88 @@
 #ifndef ASM_FILE_H
 #define ASM_FILE_H
 
-#include <string>
 #include "scaninc.h"
+#include <string>
 
-enum class IncDirectiveType
-{
-    None,
-    Include,
-    Incbin
-};
+enum class IncDirectiveType { None, Include, Incbin };
 
-class AsmFile
-{
+class AsmFile {
 public:
-    AsmFile(std::string path);
-    ~AsmFile();
-    IncDirectiveType ReadUntilIncDirective(std::string& path);
+  AsmFile(std::string path);
+  ~AsmFile();
+  IncDirectiveType ReadUntilIncDirective(std::string &path);
 
 private:
-    char *m_buffer;
-    int m_pos;
-    int m_size;
-    int m_lineNum;
-    std::string m_path;
+  char *m_buffer;
+  int m_pos;
+  int m_size;
+  int m_lineNum;
+  std::string m_path;
 
-    int GetChar()
-    {
-        if (m_pos >= m_size)
-            return -1;
+  int GetChar() {
+    if (m_pos >= m_size)
+      return -1;
 
-        int c = m_buffer[m_pos++];
+    int c = m_buffer[m_pos++];
 
-        if (c == '\r')
-        {
-            if (m_pos < m_size && m_buffer[m_pos++] == '\n')
-            {
-                m_lineNum++;
-                return '\n';
-            }
-            else
-            {
-                FATAL_INPUT_ERROR("CR line endings are not supported\n");
-            }
-        }
-
-        if (c == '\n')
-            m_lineNum++;
-
-        return c;
+    if (c == '\r') {
+      if (m_pos < m_size && m_buffer[m_pos++] == '\n') {
+        m_lineNum++;
+        return '\n';
+      } else {
+        FATAL_INPUT_ERROR("CR line endings are not supported\n");
+      }
     }
 
-    // No newline translation because it's not needed for any use of this function.
-    int PeekChar()
-    {
-        if (m_pos >= m_size)
-            return -1;
+    if (c == '\n')
+      m_lineNum++;
 
-        return m_buffer[m_pos];
-    }
+    return c;
+  }
 
-    void SkipTabsAndSpaces()
-    {
-        while (m_pos < m_size && (m_buffer[m_pos] == '\t' || m_buffer[m_pos] == ' '))
-            m_pos++;
-    }
+  // No newline translation because it's not needed for any use of this
+  // function.
+  int PeekChar() {
+    if (m_pos >= m_size)
+      return -1;
 
-    bool MatchIncDirective(std::string directiveName, std::string& path)
-    {
-        int length = directiveName.length();
-        int i;
+    return m_buffer[m_pos];
+  }
 
-        for (i = 0; i < length && m_pos + i < m_size; i++)
-            if (directiveName[i] != m_buffer[m_pos + i])
-                return false;
+  void SkipTabsAndSpaces() {
+    while (m_pos < m_size &&
+           (m_buffer[m_pos] == '\t' || m_buffer[m_pos] == ' '))
+      m_pos++;
+  }
 
-        if (i < length)
-            return false;
+  bool MatchIncDirective(std::string directiveName, std::string &path) {
+    int length = directiveName.length();
+    int i;
 
-        m_pos += length;
+    for (i = 0; i < length && m_pos + i < m_size; i++)
+      if (directiveName[i] != m_buffer[m_pos + i])
+        return false;
 
-        SkipTabsAndSpaces();
+    if (i < length)
+      return false;
 
-        if (GetChar() != '"')
-            FATAL_INPUT_ERROR("no path after \".%s\" directive\n", directiveName.c_str());
+    m_pos += length;
 
-        path = ReadPath();
+    SkipTabsAndSpaces();
 
-        return true;
-    }
+    if (GetChar() != '"')
+      FATAL_INPUT_ERROR("no path after \".%s\" directive\n",
+                        directiveName.c_str());
 
-    std::string ReadPath();
-    void SkipEndOfLineComment();
-    void SkipMultiLineComment();
-    void SkipString();
+    path = ReadPath();
+
+    return true;
+  }
+
+  std::string ReadPath();
+  void SkipEndOfLineComment();
+  void SkipMultiLineComment();
+  void SkipString();
 };
 
 #endif // ASM_FILE_H

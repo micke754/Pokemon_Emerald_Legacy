@@ -1,14 +1,13 @@
 #ifndef GUARD_FIELD_CAMERA_H
 #define GUARD_FIELD_CAMERA_H
 
-struct CameraObject
-{
-    void (*callback)(struct CameraObject *);
-    u32 spriteId;
-    s32 movementSpeedX;
-    s32 movementSpeedY;
-    s32 x;
-    s32 y;
+struct CameraObject {
+  void (*callback)(struct CameraObject *);
+  u32 spriteId;
+  s32 movementSpeedX;
+  s32 movementSpeedY;
+  s32 x;
+  s32 y;
 };
 
 extern struct CameraObject gFieldCamera;
@@ -29,4 +28,4 @@ void InstallCameraPanAheadCallback(void);
 void UpdateCameraPanning(void);
 void FieldUpdateBgTilemapScroll(void);
 
-#endif //GUARD_FIELD_CAMERA_H
+#endif // GUARD_FIELD_CAMERA_H

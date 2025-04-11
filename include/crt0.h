@@ -3,4 +3,4 @@
 
 extern u32 IntrMain[];
 
-#endif //GUARD_CRT0_H
+#endif // GUARD_CRT0_H

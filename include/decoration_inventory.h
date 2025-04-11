@@ -1,10 +1,9 @@
 #ifndef GUARD_DECORATION_INVENTORY_H
 #define GUARD_DECORATION_INVENTORY_H
 
-struct DecorationInventory
-{
-    u8 *items;
-    u8 size;
+struct DecorationInventory {
+  u8 *items;
+  u8 size;
 };
 
 extern struct DecorationInventory gDecorationInventories[];

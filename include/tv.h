@@ -5,7 +5,8 @@ extern u8 *const gTVStringVarPtrs[3];
 
 void ClearTVShowData(void);
 void TryPutBreakingNewsOnAir(void);
-void TryPutBattleSeminarOnAir(u16 foeSpecies, u16 species, u8 moveIdx, const u16 *movePtr, u16 betterMove);
+void TryPutBattleSeminarOnAir(u16 foeSpecies, u16 species, u8 moveIdx,
+                              const u16 *movePtr, u16 betterMove);
 void TryPutFrontierTVShowOnAir(u16 winStreak, u8 facility);
 void DoTVShow(void);
 void DoTVShowInSearchOfTrainers(void);
@@ -38,12 +39,14 @@ void IncrementDailyWildBattles(void);
 void IncrementDailyBerryBlender(void);
 void SanitizeTVShowsForRuby(TVShow *shows);
 void TryPutSafariFanClubOnAir(u8 nMonsCaught, u8 nPkblkUsed);
-bool8 Put3CheersForPokeblocksOnTheAir(const u8 *partnersName, u8 flavor, u8 unused, u8 sheen, u8 language);
+bool8 Put3CheersForPokeblocksOnTheAir(const u8 *partnersName, u8 flavor,
+                                      u8 unused, u8 sheen, u8 language);
 void SetPokemonAnglerSpecies(u16 species);
 void UpdateTVShowsPerDay(u16 days);
 void TryPutPokemonTodayOnAir(void);
 void TryPutSecretBaseVisitOnAir(void);
-void PutBattleUpdateOnTheAir(u8 opponentLinkPlayerId, u16 move, u16 speciesPlayer, u16 speciesOpponent);
+void PutBattleUpdateOnTheAir(u8 opponentLinkPlayerId, u16 move,
+                             u16 speciesPlayer, u16 speciesOpponent);
 void BravoTrainerPokemonProfile_BeforeInterview1(u16 move);
 void InterviewBefore(void);
 void InterviewAfter(void);
@@ -62,4 +65,4 @@ u8 CheckForPlayersHouseNews(void);
 bool8 IsGabbyAndTyShowOnTheAir(void);
 void TryPutTrainerFanClubOnAir(void);
 
-#endif //GUARD_TV_H
+#endif // GUARD_TV_H

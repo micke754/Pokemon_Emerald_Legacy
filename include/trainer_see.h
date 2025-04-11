@@ -1,12 +1,11 @@
 #ifndef GUARD_TRAINER_SEE_H
 #define GUARD_TRAINER_SEE_H
 
-struct ApproachingTrainer
-{
-    u8 objectEventId;
-    u8 radius; // plus 1
-    const u8 *trainerScriptPtr;
-    u8 taskId;
+struct ApproachingTrainer {
+  u8 objectEventId;
+  u8 radius; // plus 1
+  const u8 *trainerScriptPtr;
+  u8 taskId;
 };
 
 extern u16 gWhichTrainerToFaceAfterBattle;

@@ -23,54 +23,41 @@
 
 #include <cstdint>
 
-enum class MidiFormat
-{
-    SingleTrack,
-    MultiTrack
+enum class MidiFormat { SingleTrack, MultiTrack };
+
+enum class EventType {
+  EndOfTie = 0x01,
+  Label = 0x11,
+  LoopEnd = 0x12,
+  LoopEndBegin = 0x13,
+  LoopBegin = 0x14,
+  OriginalTimeSignature = 0x15,
+  WholeNoteMark = 0x16,
+  Pattern = 0x17,
+  TimeSignature = 0x18,
+  Tempo = 0x19,
+  InstrumentChange = 0x21,
+  Controller = 0x22,
+  PitchBend = 0x23,
+  KeyShift = 0x31,
+  Note = 0x40,
+  TimeSplit = 0xFE,
+  EndOfTrack = 0xFF,
 };
 
-enum class EventType
-{
-    EndOfTie = 0x01,
-    Label = 0x11,
-    LoopEnd = 0x12,
-    LoopEndBegin = 0x13,
-    LoopBegin = 0x14,
-    OriginalTimeSignature = 0x15,
-    WholeNoteMark = 0x16,
-    Pattern = 0x17,
-    TimeSignature = 0x18,
-    Tempo = 0x19,
-    InstrumentChange = 0x21,
-    Controller = 0x22,
-    PitchBend = 0x23,
-    KeyShift = 0x31,
-    Note = 0x40,
-    TimeSplit = 0xFE,
-    EndOfTrack = 0xFF,
-};
+struct Event {
+  std::int32_t time;
+  EventType type;
+  std::uint8_t note;
+  std::uint8_t param1;
+  std::int32_t param2;
 
-struct Event
-{
-    std::int32_t time;
-    EventType type;
-    std::uint8_t note;
-    std::uint8_t param1;
-    std::int32_t param2;
+  bool operator==(const Event &other) {
+    return (time == other.time && type == other.type && note == other.note &&
+            param1 == other.param1 && param2 == other.param2);
+  }
 
-    bool operator==(const Event& other)
-    {
-        return (time == other.time
-            && type == other.type
-            && note == other.note
-            && param1 == other.param1
-            && param2 == other.param2);
-    }
-
-    bool operator!=(const Event& other)
-    {
-        return !(*this == other);
-    }
+  bool operator!=(const Event &other) { return !(*this == other); }
 };
 
 void ReadMidiFileHeader();
@@ -79,9 +66,8 @@ void ReadMidiTracks();
 extern int g_midiChan;
 extern std::int32_t g_initialWait;
 
-inline bool IsPatternBoundary(EventType type)
-{
-    return type == EventType::EndOfTrack || (int)type <= 0x17;
+inline bool IsPatternBoundary(EventType type) {
+  return type == EventType::EndOfTrack || (int)type <= 0x17;
 }
 
 #endif // MIDI_H

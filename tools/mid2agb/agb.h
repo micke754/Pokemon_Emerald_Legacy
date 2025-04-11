@@ -21,11 +21,11 @@
 #ifndef AGB_H
 #define AGB_H
 
-#include <vector>
 #include "midi.h"
+#include <vector>
 
 void PrintAgbHeader();
-void PrintAgbTrack(std::vector<Event>& events);
+void PrintAgbTrack(std::vector<Event> &events);
 void PrintAgbFooter();
 
 extern int g_agbTrack;

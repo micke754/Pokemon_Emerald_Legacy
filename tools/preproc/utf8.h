@@ -23,12 +23,11 @@
 
 #include <cstdint>
 
-struct UnicodeChar
-{
-    std::int32_t code;
-    int encodingLength;
+struct UnicodeChar {
+  std::int32_t code;
+  int encodingLength;
 };
 
-UnicodeChar DecodeUtf8(const char* s);
+UnicodeChar DecodeUtf8(const char *s);
 
 #endif // UTF8_H

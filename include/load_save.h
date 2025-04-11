@@ -3,7 +3,7 @@
 
 #include "pokemon_storage_system.h"
 
-#define SAVEBLOCK_MOVE_RANGE    128
+#define SAVEBLOCK_MOVE_RANGE 128
 
 /**
  * These structs are to prevent them from being reordered on newer or modern
@@ -11,18 +11,18 @@
  * the wrong memory leading to various glitches.
  */
 struct SaveBlock2ASLR {
-    struct SaveBlock2 block;
-    u8 aslr[SAVEBLOCK_MOVE_RANGE];
+  struct SaveBlock2 block;
+  u8 aslr[SAVEBLOCK_MOVE_RANGE];
 };
 
 struct SaveBlock1ASLR {
-    struct SaveBlock1 block;
-    u8 aslr[SAVEBLOCK_MOVE_RANGE];
+  struct SaveBlock1 block;
+  u8 aslr[SAVEBLOCK_MOVE_RANGE];
 };
 
 struct PokemonStorageASLR {
-    struct PokemonStorage block;
-    u8 aslr[SAVEBLOCK_MOVE_RANGE];
+  struct PokemonStorage block;
+  u8 aslr[SAVEBLOCK_MOVE_RANGE];
 };
 
 extern struct SaveBlock1ASLR gSaveblock1;

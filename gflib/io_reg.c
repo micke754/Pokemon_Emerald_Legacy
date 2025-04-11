@@ -1,6 +1,6 @@
-#include "global.h"
 #include "io_reg.h"
 #include "gba/io_reg.h"
+#include "global.h"
 
 static const u32 sUnused[] = {
     0,

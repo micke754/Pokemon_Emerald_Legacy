@@ -21,53 +21,47 @@
 #ifndef ASM_FILE_H
 #define ASM_FILE_H
 
+#include "preproc.h"
 #include <cstdarg>
 #include <cstdint>
 #include <string>
-#include "preproc.h"
 
-enum class Directive
-{
-    Include,
-    String,
-    Braille,
-    Unknown
-};
+enum class Directive { Include, String, Braille, Unknown };
 
-class AsmFile
-{
+class AsmFile {
 public:
-    AsmFile(std::string filename);
-    AsmFile(AsmFile&& other);
-    AsmFile(const AsmFile&) = delete;
-    ~AsmFile();
-    Directive GetDirective();
-    std::string GetGlobalLabel();
-    std::string ReadPath();
-    int ReadString(unsigned char* s);
-    int ReadBraille(unsigned char* s);
-    bool IsAtEnd();
-    void OutputLine();
-    void OutputLocation();
+  AsmFile(std::string filename);
+  AsmFile(AsmFile &&other);
+  AsmFile(const AsmFile &) = delete;
+  ~AsmFile();
+  Directive GetDirective();
+  std::string GetGlobalLabel();
+  std::string ReadPath();
+  int ReadString(unsigned char *s);
+  int ReadBraille(unsigned char *s);
+  bool IsAtEnd();
+  void OutputLine();
+  void OutputLocation();
 
 private:
-    char* m_buffer;
-    long m_pos;
-    long m_size;
-    long m_lineNum;
-    long m_lineStart;
-    std::string m_filename;
+  char *m_buffer;
+  long m_pos;
+  long m_size;
+  long m_lineNum;
+  long m_lineStart;
+  std::string m_filename;
 
-    bool ConsumeComma();
-    int ReadPadLength();
-    void RemoveComments();
-    bool CheckForDirective(std::string name);
-    void SkipWhitespace();
-    void ExpectEmptyRestOfLine();
-    void ReportDiagnostic(const char* type, const char* format, std::va_list args);
-    void RaiseError(const char* format, ...);
-    void RaiseWarning(const char* format, ...);
-    void VerifyStringLength(int length);
+  bool ConsumeComma();
+  int ReadPadLength();
+  void RemoveComments();
+  bool CheckForDirective(std::string name);
+  void SkipWhitespace();
+  void ExpectEmptyRestOfLine();
+  void ReportDiagnostic(const char *type, const char *format,
+                        std::va_list args);
+  void RaiseError(const char *format, ...);
+  void RaiseWarning(const char *format, ...);
+  void VerifyStringLength(int length);
 };
 
 #endif // ASM_FILE_H

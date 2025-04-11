@@ -23,7 +23,7 @@
 
 extern const int g_noteDurationLUT[];
 extern const int g_noteVelocityLUT[];
-extern const char* g_noteTable[];
-extern const char* g_minusNoteTable[];
+extern const char *g_noteTable[];
+extern const char *g_minusNoteTable[];
 
 #endif // TABLES_H

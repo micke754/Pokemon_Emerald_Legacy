@@ -1,11 +1,11 @@
 #ifndef GUARD_POKEMON_STORAGE_SYSTEM_H
 #define GUARD_POKEMON_STORAGE_SYSTEM_H
 
-#define TOTAL_BOXES_COUNT       14
-#define IN_BOX_ROWS             5 // Number of rows, 6 Pokémon per row
-#define IN_BOX_COLUMNS          6 // Number of columns, 5 Pokémon per column
-#define IN_BOX_COUNT            (IN_BOX_ROWS * IN_BOX_COLUMNS)
-#define BOX_NAME_LENGTH         8
+#define TOTAL_BOXES_COUNT 14
+#define IN_BOX_ROWS 5    // Number of rows, 6 Pokémon per row
+#define IN_BOX_COLUMNS 6 // Number of columns, 5 Pokémon per column
+#define IN_BOX_COUNT (IN_BOX_ROWS * IN_BOX_COLUMNS)
+#define BOX_NAME_LENGTH 8
 
 /*
             COLUMNS
@@ -16,17 +16,17 @@ ROWS        0   1   2   3   4   5
             24  25  26  27  28  29
 */
 
-struct PokemonStorage
-{
-    /*0x0000*/ u8 currentBox;
-    /*0x0001*/ struct BoxPokemon boxes[TOTAL_BOXES_COUNT][IN_BOX_COUNT];
-    /*0x8344*/ u8 boxNames[TOTAL_BOXES_COUNT][BOX_NAME_LENGTH + 1];
-    /*0x83C2*/ u8 boxWallpapers[TOTAL_BOXES_COUNT];
+struct PokemonStorage {
+  /*0x0000*/ u8 currentBox;
+  /*0x0001*/ struct BoxPokemon boxes[TOTAL_BOXES_COUNT][IN_BOX_COUNT];
+  /*0x8344*/ u8 boxNames[TOTAL_BOXES_COUNT][BOX_NAME_LENGTH + 1];
+  /*0x83C2*/ u8 boxWallpapers[TOTAL_BOXES_COUNT];
 };
 
 extern struct PokemonStorage *gPokemonStoragePtr;
 
-void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 zero1, u8 zero2, s32 bytesToBuffer);
+void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 zero1,
+                                  u8 zero2, s32 bytesToBuffer);
 u8 CountMonsInBox(u8 boxId);
 s16 GetFirstFreeBoxSpot(u8 boxId);
 u8 CountPartyAliveNonEggMonsExcept(u8 slotToIgnore);
@@ -47,12 +47,15 @@ void SetBoxMonNickAt(u8 boxId, u8 boxPosition, const u8 *nick);
 u32 GetAndCopyBoxMonDataAt(u8 boxId, u8 boxPosition, s32 request, void *dst);
 void SetBoxMonAt(u8 boxId, u8 boxPosition, struct BoxPokemon *src);
 void CopyBoxMonAt(u8 boxId, u8 boxPosition, struct BoxPokemon *dst);
-void CreateBoxMonAt(u8 boxId, u8 boxPosition, u16 species, u8 level, u8 fixedIV, u8 hasFixedPersonality, u32 personality, u8 otIDType, u32 otID);
+void CreateBoxMonAt(u8 boxId, u8 boxPosition, u16 species, u8 level, u8 fixedIV,
+                    u8 hasFixedPersonality, u32 personality, u8 otIDType,
+                    u32 otID);
 void ZeroBoxMonAt(u8 boxId, u8 boxPosition);
 void BoxMonAtToMon(u8 boxId, u8 boxPosition, struct Pokemon *dst);
 struct BoxPokemon *GetBoxedMonPtr(u8 boxId, u8 boxPosition);
 u8 *GetBoxNamePtr(u8 boxId);
-s16 AdvanceStorageMonIndex(struct BoxPokemon *boxMons, u8 currIndex, u8 maxIndex, u8 mode);
+s16 AdvanceStorageMonIndex(struct BoxPokemon *boxMons, u8 currIndex,
+                           u8 maxIndex, u8 mode);
 bool8 CheckFreePokemonStorageSpace(void);
 bool32 CheckBoxMonSanityAt(u32 boxId, u32 boxPosition);
 u32 CountStorageNonEggMons(void);

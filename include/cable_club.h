@@ -1,8 +1,8 @@
 #ifndef GUARD_CABLE_CLUB_H
 #define GUARD_CABLE_CLUB_H
 
-#include "task.h"
 #include "constants/cable_club.h"
+#include "task.h"
 
 void CreateTask_EnterCableClubSeat(TaskFunc taskFunc);
 u8 CreateTask_ReestablishCableClubLink(void);
@@ -12,4 +12,4 @@ void Task_ReconnectWithLinkPlayers(u8 taskId);
 void Task_WaitForLinkPlayerConnection(u8 taskId);
 bool32 GetLinkTrainerCardColor(u8 linkPlayerIndex);
 
-#endif //GUARD_CABLE_CLUB_H
+#endif // GUARD_CABLE_CLUB_H

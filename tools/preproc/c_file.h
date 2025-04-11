@@ -21,39 +21,40 @@
 #ifndef C_FILE_H
 #define C_FILE_H
 
+#include "preproc.h"
 #include <cstdarg>
 #include <cstdint>
-#include <string>
 #include <memory>
-#include "preproc.h"
+#include <string>
 
-class CFile
-{
+class CFile {
 public:
-    CFile(const char * filenameCStr, bool isStdin);
-    CFile(CFile&& other);
-    CFile(const CFile&) = delete;
-    ~CFile();
-    void Preproc();
+  CFile(const char *filenameCStr, bool isStdin);
+  CFile(CFile &&other);
+  CFile(const CFile &) = delete;
+  ~CFile();
+  void Preproc();
 
 private:
-    char* m_buffer;
-    long m_pos;
-    long m_size;
-    long m_lineNum;
-    std::string m_filename;
-    bool m_isStdin;
+  char *m_buffer;
+  long m_pos;
+  long m_size;
+  long m_lineNum;
+  std::string m_filename;
+  bool m_isStdin;
 
-    bool ConsumeHorizontalWhitespace();
-    bool ConsumeNewline();
-    void SkipWhitespace();
-    void TryConvertString();
-    std::unique_ptr<unsigned char[]> ReadWholeFile(const std::string& path, int& size);
-    bool CheckIdentifier(const std::string& ident);
-    void TryConvertIncbin();
-    void ReportDiagnostic(const char* type, const char* format, std::va_list args);
-    void RaiseError(const char* format, ...);
-    void RaiseWarning(const char* format, ...);
+  bool ConsumeHorizontalWhitespace();
+  bool ConsumeNewline();
+  void SkipWhitespace();
+  void TryConvertString();
+  std::unique_ptr<unsigned char[]> ReadWholeFile(const std::string &path,
+                                                 int &size);
+  bool CheckIdentifier(const std::string &ident);
+  void TryConvertIncbin();
+  void ReportDiagnostic(const char *type, const char *format,
+                        std::va_list args);
+  void RaiseError(const char *format, ...);
+  void RaiseWarning(const char *format, ...);
 };
 
 #define CHUNK_SIZE 4096

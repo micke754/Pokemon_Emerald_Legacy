@@ -3,8 +3,8 @@
 #ifndef FONT_H
 #define FONT_H
 
-#include <stdbool.h>
 #include "gfx.h"
+#include <stdbool.h>
 
 void ReadLatinFont(char *path, struct Image *image);
 void WriteLatinFont(char *path, struct Image *image);

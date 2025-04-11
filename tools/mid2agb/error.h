@@ -21,6 +21,6 @@
 #ifndef ERROR_H
 #define ERROR_H
 
-[[noreturn]] void RaiseError(const char* format, ...);
+[[noreturn]] void RaiseError(const char *format, ...);
 
 #endif // ERROR_H

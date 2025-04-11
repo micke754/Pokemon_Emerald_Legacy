@@ -24,8 +24,8 @@
 #include <cstdio>
 #include <string>
 
-extern FILE* g_inputFile;
-extern FILE* g_outputFile;
+extern FILE *g_inputFile;
+extern FILE *g_outputFile;
 
 extern std::string g_asmLabel;
 extern int g_masterVolume;

@@ -1,5 +1,4 @@
-const struct OamData gOamData_AffineOff_ObjNormal_8x8 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_8x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -12,9 +11,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_8x8 =
     .paletteNum = 0,
 };
 
-
-const struct OamData gOamData_AffineOff_ObjNormal_16x16 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_16x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -27,8 +24,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_16x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_32x32 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_32x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -41,8 +37,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_32x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_64x64 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_64x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -55,8 +50,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_64x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_16x8 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_16x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -69,8 +63,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_16x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_32x8 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_32x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -83,8 +76,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_32x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_32x16 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_32x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -97,8 +89,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_32x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_64x32 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_64x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -111,8 +102,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_64x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_8x16 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_8x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -125,8 +115,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_8x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_8x32 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_8x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -139,8 +128,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_8x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_16x32 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_16x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -153,8 +141,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_16x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjNormal_32x64 =
-{
+const struct OamData gOamData_AffineOff_ObjNormal_32x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -167,8 +154,7 @@ const struct OamData gOamData_AffineOff_ObjNormal_32x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_8x8 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_8x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -181,8 +167,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_8x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_16x16 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_16x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -195,8 +180,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_16x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_32x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_32x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -209,8 +193,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_32x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_64x64 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_64x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -223,8 +206,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_64x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_16x8 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_16x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -237,8 +219,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_16x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_32x8 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_32x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -251,8 +232,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_32x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_32x16 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_32x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -265,8 +245,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_32x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_64x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_64x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -279,8 +258,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_64x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_8x16 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_8x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -293,8 +271,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_8x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_8x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_8x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -307,8 +284,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_8x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_16x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_16x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -321,8 +297,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_16x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjNormal_32x64 =
-{
+const struct OamData gOamData_AffineNormal_ObjNormal_32x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -335,8 +310,7 @@ const struct OamData gOamData_AffineNormal_ObjNormal_32x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_8x8 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_8x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -349,8 +323,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_8x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_16x16 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_16x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -363,8 +336,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_16x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_32x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_32x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -377,8 +349,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_32x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_64x64 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_64x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -391,8 +362,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_64x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_16x8 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_16x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -405,8 +375,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_16x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_32x8 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_32x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -419,8 +388,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_32x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_32x16 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_32x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -433,8 +401,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_32x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_64x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_64x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -447,8 +414,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_64x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_8x16 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_8x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -461,8 +427,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_8x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_8x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_8x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -475,8 +440,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_8x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_16x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_16x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -489,8 +453,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_16x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjNormal_32x64 =
-{
+const struct OamData gOamData_AffineDouble_ObjNormal_32x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -503,8 +466,7 @@ const struct OamData gOamData_AffineDouble_ObjNormal_32x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_8x8 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_8x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -517,8 +479,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_8x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_16x16 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_16x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -531,8 +492,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_16x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_32x32 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_32x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -545,8 +505,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_32x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_64x64 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_64x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -559,8 +518,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_64x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_16x8 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_16x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -573,8 +531,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_16x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_32x8 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_32x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -587,8 +544,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_32x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_32x16 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_32x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -601,8 +557,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_32x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_64x32 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_64x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -615,8 +570,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_64x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_8x16 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_8x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -629,8 +583,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_8x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_8x32 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_8x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -643,8 +596,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_8x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_16x32 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_16x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -657,8 +609,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_16x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineOff_ObjBlend_32x64 =
-{
+const struct OamData gOamData_AffineOff_ObjBlend_32x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -671,8 +622,7 @@ const struct OamData gOamData_AffineOff_ObjBlend_32x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_8x8 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_8x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -685,8 +635,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_8x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_16x16 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_16x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -699,8 +648,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_16x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_32x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_32x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -713,8 +661,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_32x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_64x64 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_64x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -727,8 +674,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_64x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_16x8 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_16x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -741,8 +687,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_16x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_32x8 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_32x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -755,8 +700,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_32x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_32x16 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_32x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -769,8 +713,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_32x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_64x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_64x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -783,8 +726,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_64x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_8x16 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_8x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -797,8 +739,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_8x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_8x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_8x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -811,8 +752,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_8x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_16x32 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_16x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -825,8 +765,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_16x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineNormal_ObjBlend_32x64 =
-{
+const struct OamData gOamData_AffineNormal_ObjBlend_32x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_NORMAL,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -839,8 +778,7 @@ const struct OamData gOamData_AffineNormal_ObjBlend_32x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_8x8 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_8x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -853,8 +791,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_8x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_16x16 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_16x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -867,8 +804,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_16x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_32x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_32x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -881,8 +817,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_32x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_64x64 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_64x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -895,8 +830,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_64x64 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_16x8 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_16x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -909,8 +843,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_16x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_32x8 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_32x8 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -923,8 +856,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_32x8 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_32x16 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_32x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -937,8 +869,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_32x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_64x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_64x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -951,8 +882,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_64x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_8x16 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_8x16 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -965,8 +895,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_8x16 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_8x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_8x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -979,8 +908,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_8x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_16x32 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_16x32 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -993,8 +921,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_16x32 =
     .paletteNum = 0,
 };
 
-const struct OamData gOamData_AffineDouble_ObjBlend_32x64 =
-{
+const struct OamData gOamData_AffineDouble_ObjBlend_32x64 = {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_DOUBLE,
     .objMode = ST_OAM_OBJ_BLEND,
@@ -1007,8 +934,7 @@ const struct OamData gOamData_AffineDouble_ObjBlend_32x64 =
     .paletteNum = 0,
 };
 
-const struct CompressedSpriteSheet gBattleAnimPicTable[] =
-{
+const struct CompressedSpriteSheet gBattleAnimPicTable[] = {
     {gBattleAnimSpriteGfx_Bone, 0x0200, ANIM_TAG_BONE},
     {gBattleAnimSpriteGfx_Spark, 0x0300, ANIM_TAG_SPARK},
     {gBattleAnimSpriteGfx_Pencil, 0x0200, ANIM_TAG_PENCIL},
@@ -1071,7 +997,8 @@ const struct CompressedSpriteSheet gBattleAnimPicTable[] =
     {gBattleAnimSpriteGfx_Z, 0x0100, ANIM_TAG_Z},
     {gBattleAnimSpriteGfx_YellowUnk2, 0x0040, ANIM_TAG_YELLOW_UNK_2},
     {gBattleAnimSpriteGfx_AirSlash, 0x0180, ANIM_TAG_AIR_SLASH},
-    {gBattleAnimSpriteGfx_SpinningGreenOrbs, 0x0800, ANIM_TAG_SPINNING_GREEN_ORBS},
+    {gBattleAnimSpriteGfx_SpinningGreenOrbs, 0x0800,
+     ANIM_TAG_SPINNING_GREEN_ORBS},
     {gBattleAnimSpriteGfx_Leaf, 0x0480, ANIM_TAG_LEAF},
     {gBattleAnimSpriteGfx_Finger, 0x0200, ANIM_TAG_FINGER},
     {gBattleAnimSpriteGfx_PoisonPowder, 0x0200, ANIM_TAG_POISON_POWDER},
@@ -1202,7 +1129,8 @@ const struct CompressedSpriteSheet gBattleAnimPicTable[] =
     {gBattleAnimSpriteGfx_OpeningEye, 0x0800, ANIM_TAG_OPENING_EYE},
     {gBattleAnimSpriteGfx_RoundWhiteHalo, 0x0800, ANIM_TAG_ROUND_WHITE_HALO},
     {gBattleAnimSpriteGfx_FangAttack, 0x0800, ANIM_TAG_FANG_ATTACK},
-    {gBattleAnimSpriteGfx_PurpleHandOutline, 0x0200, ANIM_TAG_PURPLE_HAND_OUTLINE},
+    {gBattleAnimSpriteGfx_PurpleHandOutline, 0x0200,
+     ANIM_TAG_PURPLE_HAND_OUTLINE},
     {gBattleAnimSpriteGfx_Moon, 0x0800, ANIM_TAG_MOON},
     {gBattleAnimSpriteGfx_GreenSparkle, 0x0200, ANIM_TAG_GREEN_SPARKLE},
     {gBattleAnimSpriteGfx_Spiral, 0x0800, ANIM_TAG_SPIRAL},
@@ -1239,7 +1167,8 @@ const struct CompressedSpriteSheet gBattleAnimPicTable[] =
     {gBattleAnimSpriteGfx_Spotlight, 0x0800, ANIM_TAG_SPOTLIGHT},
     {gBattleAnimSpriteGfx_LetterZ, 0x0200, ANIM_TAG_LETTER_Z},
     {gBattleAnimSpriteGfx_RapidSpin, 0x0300, ANIM_TAG_RAPID_SPIN},
-    {gBattleAnimSpriteGfx_TriAttackTriangle, 0x0800, ANIM_TAG_TRI_ATTACK_TRIANGLE},
+    {gBattleAnimSpriteGfx_TriAttackTriangle, 0x0800,
+     ANIM_TAG_TRI_ATTACK_TRIANGLE},
     {gBattleAnimSpriteGfx_WispOrb, 0x0380, ANIM_TAG_WISP_ORB},
     {gBattleAnimSpriteGfx_WispFire, 0x0800, ANIM_TAG_WISP_FIRE},
     {gBattleAnimSpriteGfx_GoldStars, 0x00c0, ANIM_TAG_GOLD_STARS},
@@ -1264,7 +1193,8 @@ const struct CompressedSpriteSheet gBattleAnimPicTable[] =
     {gBattleAnimSpriteGfx_PawPrint, 0x0200, ANIM_TAG_PAW_PRINT},
     {gBattleAnimSpriteGfx_PurpleFlame, 0x0400, ANIM_TAG_PURPLE_FLAME},
     {gBattleAnimSpriteGfx_RedBall, 0x0200, ANIM_TAG_RED_BALL},
-    {gBattleAnimSpriteGfx_SmellingsaltEffect, 0x0200, ANIM_TAG_SMELLINGSALT_EFFECT},
+    {gBattleAnimSpriteGfx_SmellingsaltEffect, 0x0200,
+     ANIM_TAG_SMELLINGSALT_EFFECT},
     {gBattleAnimSpriteGfx_Meteor, 0x0800, ANIM_TAG_METEOR},
     {gBattleAnimSpriteGfx_FlatRock, 0x0280, ANIM_TAG_FLAT_ROCK},
     {gBattleAnimSpriteGfx_MagnifyingGlass, 0x0200, ANIM_TAG_MAGNIFYING_GLASS},
@@ -1276,7 +1206,8 @@ const struct CompressedSpriteSheet gBattleAnimPicTable[] =
     {gBattleAnimSpriteGfx_GlowyRedOrb, 0x0020, ANIM_TAG_GLOWY_RED_ORB},
     {gBattleAnimSpriteGfx_GlowyRedOrb, 0x0020, ANIM_TAG_GLOWY_GREEN_ORB},
     {gBattleAnimSpriteGfx_GreenSpike, 0x0080, ANIM_TAG_GREEN_SPIKE},
-    {gBattleAnimSpriteGfx_CircleOfLight, 0x0800, ANIM_TAG_WHITE_CIRCLE_OF_LIGHT},
+    {gBattleAnimSpriteGfx_CircleOfLight, 0x0800,
+     ANIM_TAG_WHITE_CIRCLE_OF_LIGHT},
     {gBattleAnimSpriteGfx_GlowyRedOrb, 0x0020, ANIM_TAG_GLOWY_BLUE_ORB},
     {gBattleAnimSpriteGfx_Pokeblock, 0x0080, ANIM_TAG_POKEBLOCK},
     {gBattleAnimSpriteGfx_WhiteFeather, 0x0400, ANIM_TAG_WHITE_FEATHER},
@@ -1300,8 +1231,7 @@ const struct CompressedSpriteSheet gBattleAnimPicTable[] =
     {gBattleAnimSpriteGfx_GoldRing, 0x0100, ANIM_TAG_BLUE_RING_2},
 };
 
-const struct CompressedSpritePalette gBattleAnimPaletteTable[] =
-{
+const struct CompressedSpritePalette gBattleAnimPaletteTable[] = {
     {gBattleAnimSpritePal_Bone, ANIM_TAG_BONE},
     {gBattleAnimSpritePal_Spark, ANIM_TAG_SPARK},
     {gBattleAnimSpritePal_Pencil, ANIM_TAG_PENCIL},
@@ -1593,33 +1523,70 @@ const struct CompressedSpritePalette gBattleAnimPaletteTable[] =
     {gBattleAnimSpritePal_BlueRing2, ANIM_TAG_BLUE_RING_2},
 };
 
-const struct BattleAnimBackground gBattleAnimBackgroundTable[] =
-{
-    [BG_NONE]                = {gBattleAnimBgImage_Dark,       gBattleAnimBgPalette_Dark,       gBattleAnimBgTilemap_Dark},
-    [BG_DARK]                = {gBattleAnimBgImage_Dark,       gBattleAnimBgPalette_Dark,       gBattleAnimBgTilemap_Dark},
-    [BG_GHOST]               = {gBattleAnimBgImage_Ghost,      gBattleAnimBgPalette_Ghost,      gBattleAnimBgTilemap_Ghost},
-    [BG_PSYCHIC]             = {gBattleAnimBgImage_Psychic,    gBattleAnimBgPalette_Psychic,    gBattleAnimBgTilemap_Psychic},
-    [BG_IMPACT_OPPONENT]     = {gBattleAnimBgImage_Impact,     gBattleAnimBgPalette_Impact,     gBattleAnimBgTilemap_ImpactOpponent},
-    [BG_IMPACT_PLAYER]       = {gBattleAnimBgImage_Impact,     gBattleAnimBgPalette_Impact,     gBattleAnimBgTilemap_ImpactPlayer},
-    [BG_IMPACT_CONTESTS]     = {gBattleAnimBgImage_Impact,     gBattleAnimBgPalette_Impact,     gBattleAnimBgTilemap_ImpactContests},
-    [BG_DRILL]               = {gBattleAnimBgImage_Drill,      gBattleAnimBgPalette_Drill,      gBattleAnimBgTilemap_Drill},
-    [BG_DRILL_CONTESTS]      = {gBattleAnimBgImage_Drill,      gBattleAnimBgPalette_Drill,      gBattleAnimBgTilemap_DrillContests},
-    [BG_HIGHSPEED_OPPONENT]  = {gBattleAnimBgImage_Highspeed,  gBattleAnimBgPalette_Highspeed,  gBattleAnimBgTilemap_HighspeedOpponent},
-    [BG_HIGHSPEED_PLAYER]    = {gBattleAnimBgImage_Highspeed,  gBattleAnimBgPalette_Highspeed,  gBattleAnimBgTilemap_HighspeedPlayer},
-    [BG_THUNDER]             = {gBattleAnimBgImage_Thunder,    gBattleAnimBgPalette_Thunder,    gBattleAnimBgTilemap_Thunder},
-    [BG_GUILLOTINE_OPPONENT] = {gBattleAnimBgImage_Guillotine, gBattleAnimBgPalette_Guillotine, gBattleAnimBgTilemap_GuillotineOpponent},
-    [BG_GUILLOTINE_PLAYER]   = {gBattleAnimBgImage_Guillotine, gBattleAnimBgPalette_Guillotine, gBattleAnimBgTilemap_GuillotinePlayer},
-    [BG_GUILLOTINE_CONTESTS] = {gBattleAnimBgImage_Guillotine, gBattleAnimBgPalette_Guillotine, gBattleAnimBgTilemap_GuillotineContests},
-    [BG_ICE]                 = {gBattleAnimBgImage_Ice,        gBattleAnimBgPalette_Ice,        gBattleAnimBgTilemap_Ice},
-    [BG_COSMIC]              = {gBattleAnimBgImage_Cosmic,     gBattleAnimBgPalette_Cosmic,     gBattleAnimBgTilemap_Cosmic},
-    [BG_IN_AIR]              = {gBattleAnimBgImage_InAir,      gBattleAnimBgPalette_InAir,      gBattleAnimBgTilemap_InAir},
-    [BG_SKY]                 = {gBattleAnimBgImage_Drill,      gBattleAnimBgPalette_Sky,        gBattleAnimBgTilemap_Drill},
-    [BG_SKY_CONTESTS]        = {gBattleAnimBgImage_Drill,      gBattleAnimBgPalette_Sky,        gBattleAnimBgTilemap_DrillContests},
-    [BG_AURORA]              = {gBattleAnimBgImage_Aurora,     gBattleAnimBgPalette_Aurora,     gBattleAnimBgTilemap_Aurora},
-    [BG_FISSURE]             = {gBattleAnimBgImage_Fissure,    gBattleAnimBgPalette_Fissure,    gBattleAnimBgTilemap_Fissure},
-    [BG_BUG_OPPONENT]        = {gBattleAnimBgImage_Highspeed,  gBattleAnimBgPalette_Bug,        gBattleAnimBgTilemap_HighspeedOpponent},
-    [BG_BUG_PLAYER]          = {gBattleAnimBgImage_Highspeed,  gBattleAnimBgPalette_Bug,        gBattleAnimBgTilemap_HighspeedPlayer},
-    [BG_SOLAR_BEAM_OPPONENT] = {gBattleAnimBgImage_Impact,     gBattleAnimBgPalette_SolarBeam,  gBattleAnimBgTilemap_ImpactOpponent},
-    [BG_SOLAR_BEAM_PLAYER]   = {gBattleAnimBgImage_Impact,     gBattleAnimBgPalette_SolarBeam,  gBattleAnimBgTilemap_ImpactPlayer},
-    [BG_SOLAR_BEAM_CONTESTS] = {gBattleAnimBgImage_Impact,     gBattleAnimBgPalette_SolarBeam,  gBattleAnimBgTilemap_ImpactContests},
+const struct BattleAnimBackground gBattleAnimBackgroundTable[] = {
+    [BG_NONE] = {gBattleAnimBgImage_Dark, gBattleAnimBgPalette_Dark,
+                 gBattleAnimBgTilemap_Dark},
+    [BG_DARK] = {gBattleAnimBgImage_Dark, gBattleAnimBgPalette_Dark,
+                 gBattleAnimBgTilemap_Dark},
+    [BG_GHOST] = {gBattleAnimBgImage_Ghost, gBattleAnimBgPalette_Ghost,
+                  gBattleAnimBgTilemap_Ghost},
+    [BG_PSYCHIC] = {gBattleAnimBgImage_Psychic, gBattleAnimBgPalette_Psychic,
+                    gBattleAnimBgTilemap_Psychic},
+    [BG_IMPACT_OPPONENT] = {gBattleAnimBgImage_Impact,
+                            gBattleAnimBgPalette_Impact,
+                            gBattleAnimBgTilemap_ImpactOpponent},
+    [BG_IMPACT_PLAYER] = {gBattleAnimBgImage_Impact,
+                          gBattleAnimBgPalette_Impact,
+                          gBattleAnimBgTilemap_ImpactPlayer},
+    [BG_IMPACT_CONTESTS] = {gBattleAnimBgImage_Impact,
+                            gBattleAnimBgPalette_Impact,
+                            gBattleAnimBgTilemap_ImpactContests},
+    [BG_DRILL] = {gBattleAnimBgImage_Drill, gBattleAnimBgPalette_Drill,
+                  gBattleAnimBgTilemap_Drill},
+    [BG_DRILL_CONTESTS] = {gBattleAnimBgImage_Drill, gBattleAnimBgPalette_Drill,
+                           gBattleAnimBgTilemap_DrillContests},
+    [BG_HIGHSPEED_OPPONENT] = {gBattleAnimBgImage_Highspeed,
+                               gBattleAnimBgPalette_Highspeed,
+                               gBattleAnimBgTilemap_HighspeedOpponent},
+    [BG_HIGHSPEED_PLAYER] = {gBattleAnimBgImage_Highspeed,
+                             gBattleAnimBgPalette_Highspeed,
+                             gBattleAnimBgTilemap_HighspeedPlayer},
+    [BG_THUNDER] = {gBattleAnimBgImage_Thunder, gBattleAnimBgPalette_Thunder,
+                    gBattleAnimBgTilemap_Thunder},
+    [BG_GUILLOTINE_OPPONENT] = {gBattleAnimBgImage_Guillotine,
+                                gBattleAnimBgPalette_Guillotine,
+                                gBattleAnimBgTilemap_GuillotineOpponent},
+    [BG_GUILLOTINE_PLAYER] = {gBattleAnimBgImage_Guillotine,
+                              gBattleAnimBgPalette_Guillotine,
+                              gBattleAnimBgTilemap_GuillotinePlayer},
+    [BG_GUILLOTINE_CONTESTS] = {gBattleAnimBgImage_Guillotine,
+                                gBattleAnimBgPalette_Guillotine,
+                                gBattleAnimBgTilemap_GuillotineContests},
+    [BG_ICE] = {gBattleAnimBgImage_Ice, gBattleAnimBgPalette_Ice,
+                gBattleAnimBgTilemap_Ice},
+    [BG_COSMIC] = {gBattleAnimBgImage_Cosmic, gBattleAnimBgPalette_Cosmic,
+                   gBattleAnimBgTilemap_Cosmic},
+    [BG_IN_AIR] = {gBattleAnimBgImage_InAir, gBattleAnimBgPalette_InAir,
+                   gBattleAnimBgTilemap_InAir},
+    [BG_SKY] = {gBattleAnimBgImage_Drill, gBattleAnimBgPalette_Sky,
+                gBattleAnimBgTilemap_Drill},
+    [BG_SKY_CONTESTS] = {gBattleAnimBgImage_Drill, gBattleAnimBgPalette_Sky,
+                         gBattleAnimBgTilemap_DrillContests},
+    [BG_AURORA] = {gBattleAnimBgImage_Aurora, gBattleAnimBgPalette_Aurora,
+                   gBattleAnimBgTilemap_Aurora},
+    [BG_FISSURE] = {gBattleAnimBgImage_Fissure, gBattleAnimBgPalette_Fissure,
+                    gBattleAnimBgTilemap_Fissure},
+    [BG_BUG_OPPONENT] = {gBattleAnimBgImage_Highspeed, gBattleAnimBgPalette_Bug,
+                         gBattleAnimBgTilemap_HighspeedOpponent},
+    [BG_BUG_PLAYER] = {gBattleAnimBgImage_Highspeed, gBattleAnimBgPalette_Bug,
+                       gBattleAnimBgTilemap_HighspeedPlayer},
+    [BG_SOLAR_BEAM_OPPONENT] = {gBattleAnimBgImage_Impact,
+                                gBattleAnimBgPalette_SolarBeam,
+                                gBattleAnimBgTilemap_ImpactOpponent},
+    [BG_SOLAR_BEAM_PLAYER] = {gBattleAnimBgImage_Impact,
+                              gBattleAnimBgPalette_SolarBeam,
+                              gBattleAnimBgTilemap_ImpactPlayer},
+    [BG_SOLAR_BEAM_CONTESTS] = {gBattleAnimBgImage_Impact,
+                                gBattleAnimBgPalette_SolarBeam,
+                                gBattleAnimBgTilemap_ImpactContests},
 };

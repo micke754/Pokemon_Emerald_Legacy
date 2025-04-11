@@ -24,20 +24,18 @@
 #define MOVEMENT_MODE_FROZEN 1
 #define MOVEMENT_MODE_SCRIPTED 2
 
-#define SKIP_OBJECT_EVENT_LOAD  1
+#define SKIP_OBJECT_EVENT_LOAD 1
 
-struct InitialPlayerAvatarState
-{
-    u8 transitionFlags;
-    u8 direction;
+struct InitialPlayerAvatarState {
+  u8 transitionFlags;
+  u8 direction;
 };
 
-struct LinkPlayerObjectEvent
-{
-    u8 active;
-    u8 linkPlayerId;
-    u8 objEventId;
-    u8 movementMode;
+struct LinkPlayerObjectEvent {
+  u8 active;
+  u8 linkPlayerId;
+  u8 objEventId;
+  u8 movementMode;
 };
 
 extern struct WarpData gLastUsedWarp;
@@ -69,13 +67,15 @@ void SetObjEventTemplateCoords(u8 localId, s16 x, s16 y);
 void SetObjEventTemplateMovementType(u8 localId, u8 movementType);
 const struct MapLayout *GetMapLayout(void);
 void ApplyCurrentWarp(void);
-struct MapHeader const *const Overworld_GetMapHeaderByGroupAndId(u16 mapGroup, u16 mapNum);
+struct MapHeader const *const Overworld_GetMapHeaderByGroupAndId(u16 mapGroup,
+                                                                 u16 mapNum);
 struct MapHeader const *const GetDestinationWarpMapHeader(void);
 void WarpIntoMap(void);
 void SetWarpDestination(s8 mapGroup, s8 mapNum, s8 warpId, s8 x, s8 y);
 void SetWarpDestinationToMapWarp(s8 mapGroup, s8 mapNum, s8 warpId);
 void SetDynamicWarp(s32 unused, s8 mapGroup, s8 mapNum, s8 warpId);
-void SetDynamicWarpWithCoords(s32 unused, s8 mapGroup, s8 mapNum, s8 warpId, s8 x, s8 y);
+void SetDynamicWarpWithCoords(s32 unused, s8 mapGroup, s8 mapNum, s8 warpId,
+                              s8 x, s8 y);
 void SetWarpDestinationToDynamicWarp(u8 unused);
 void SetWarpDestinationToHealLocation(u8 healLocationId);
 void SetWarpDestinationToLastHealLocation(void);

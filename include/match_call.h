@@ -2,12 +2,12 @@
 #define GUARD_MATCH_CALL_H
 
 enum {
-    MATCH_CALL_TYPE_NON_TRAINER,
-    MATCH_CALL_TYPE_TRAINER,
-    MATCH_CALL_TYPE_WALLY,
-    MATCH_CALL_TYPE_BIRCH,
-    MATCH_CALL_TYPE_MAY_BRENDAN,
-    MATCH_CALL_TYPE_GYMLEADER_ELITEFOUR
+  MATCH_CALL_TYPE_NON_TRAINER,
+  MATCH_CALL_TYPE_TRAINER,
+  MATCH_CALL_TYPE_WALLY,
+  MATCH_CALL_TYPE_BIRCH,
+  MATCH_CALL_TYPE_MAY_BRENDAN,
+  MATCH_CALL_TYPE_GYMLEADER_ELITEFOUR
 };
 
 s32 GetRematchIdxByTrainerIdx(s32 trainerIdx);
@@ -20,4 +20,4 @@ bool32 SelectMatchCallMessage(int, u8 *);
 void LoadMatchCallWindowGfx(u32 windowId, u32 destOffset, u32 paletteId);
 void DrawMatchCallTextBoxBorder(u32 windowId, u32 tileOffset, u32 paletteId);
 
-#endif //GUARD_MATCH_CALL_H
+#endif // GUARD_MATCH_CALL_H

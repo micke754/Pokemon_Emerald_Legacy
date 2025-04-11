@@ -21,52 +21,43 @@
 #ifndef SOURCE_FILE_H
 #define SOURCE_FILE_H
 
-#include <string>
-#include "scaninc.h"
 #include "asm_file.h"
 #include "c_file.h"
+#include "scaninc.h"
+#include <string>
 
-enum class SourceFileType
-{
-    Cpp,
-    Header,
-    Asm,
-    Inc
-};
+enum class SourceFileType { Cpp, Header, Asm, Inc };
 
-SourceFileType GetFileType(std::string& path);
+SourceFileType GetFileType(std::string &path);
 
-class SourceFile
-{
+class SourceFile {
 public:
-
-    SourceFile(std::string path);
-    ~SourceFile();
-    SourceFile(SourceFile const&) = delete;
-    SourceFile(SourceFile&&) = delete;
-    SourceFile& operator =(SourceFile const&) = delete;
-    SourceFile& operator =(SourceFile&&) = delete;
-    bool HasIncbins();
-    const std::set<std::string>& GetIncbins();
-    const std::set<std::string>& GetIncludes();
-    std::string& GetSrcDir();
-    SourceFileType FileType();
+  SourceFile(std::string path);
+  ~SourceFile();
+  SourceFile(SourceFile const &) = delete;
+  SourceFile(SourceFile &&) = delete;
+  SourceFile &operator=(SourceFile const &) = delete;
+  SourceFile &operator=(SourceFile &&) = delete;
+  bool HasIncbins();
+  const std::set<std::string> &GetIncbins();
+  const std::set<std::string> &GetIncludes();
+  std::string &GetSrcDir();
+  SourceFileType FileType();
 
 private:
-    union InnerUnion {
-        CFile c_file;
-        struct AsmWrapper {
-            std::set<std::string> asm_incbins;
-            std::set<std::string> asm_includes;
-        } asm_wrapper;
+  union InnerUnion {
+    CFile c_file;
+    struct AsmWrapper {
+      std::set<std::string> asm_incbins;
+      std::set<std::string> asm_includes;
+    } asm_wrapper;
 
-        // Construction and destruction handled by SourceFile.
-        InnerUnion() {};
-        ~InnerUnion() {};
-    } m_source_file;
-    SourceFileType m_file_type;
-    std::string m_src_dir;
+    // Construction and destruction handled by SourceFile.
+    InnerUnion() {};
+    ~InnerUnion() {};
+  } m_source_file;
+  SourceFileType m_file_type;
+  std::string m_src_dir;
 };
 
 #endif // SOURCE_FILE_H
-

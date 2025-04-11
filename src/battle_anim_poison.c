@@ -1,7 +1,7 @@
-#include "global.h"
 #include "battle_anim.h"
-#include "trig.h"
 #include "constants/rgb.h"
+#include "global.h"
+#include "trig.h"
 
 static void AnimSludgeProjectile(struct Sprite *);
 static void AnimSludgeProjectile_Step(struct Sprite *);
@@ -13,22 +13,16 @@ static void AnimAcidPoisonDroplet(struct Sprite *);
 static void AnimBubbleEffect(struct Sprite *);
 static void AnimBubbleEffect_Step(struct Sprite *);
 
-static const union AnimCmd sAnim_ToxicBubble[] =
-{
-    ANIMCMD_FRAME(0, 5),
-    ANIMCMD_FRAME(8, 5),
-    ANIMCMD_FRAME(16, 5),
-    ANIMCMD_FRAME(24, 5),
-    ANIMCMD_END,
+static const union AnimCmd sAnim_ToxicBubble[] = {
+    ANIMCMD_FRAME(0, 5),  ANIMCMD_FRAME(8, 5), ANIMCMD_FRAME(16, 5),
+    ANIMCMD_FRAME(24, 5), ANIMCMD_END,
 };
 
-static const union AnimCmd *const sAnims_ToxicBubble[] =
-{
+static const union AnimCmd *const sAnims_ToxicBubble[] = {
     sAnim_ToxicBubble,
 };
 
-const struct SpriteTemplate gToxicBubbleSpriteTemplate =
-{
+const struct SpriteTemplate gToxicBubbleSpriteTemplate = {
     .tileTag = ANIM_TAG_TOXIC_BUBBLE,
     .paletteTag = ANIM_TAG_TOXIC_BUBBLE,
     .oam = &gOamData_AffineOff_ObjNormal_16x32,
@@ -38,57 +32,48 @@ const struct SpriteTemplate gToxicBubbleSpriteTemplate =
     .callback = AnimSpriteOnMonPos,
 };
 
-static const union AnimCmd sAnim_PoisonProjectile[] =
-{
+static const union AnimCmd sAnim_PoisonProjectile[] = {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_AcidPoisonDroplet[] =
-{
+static const union AnimCmd sAnim_AcidPoisonDroplet[] = {
     ANIMCMD_FRAME(4, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SludgeBombHit[] =
-{
+static const union AnimCmd sAnim_SludgeBombHit[] = {
     ANIMCMD_FRAME(8, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd *const sAnims_PoisonProjectile[] =
-{
+static const union AnimCmd *const sAnims_PoisonProjectile[] = {
     sAnim_PoisonProjectile,
     sAnim_AcidPoisonDroplet,
     sAnim_SludgeBombHit,
 };
 
-static const union AffineAnimCmd sAffineAnim_PoisonProjectile[] =
-{
+static const union AffineAnimCmd sAffineAnim_PoisonProjectile[] = {
     AFFINEANIMCMD_FRAME(0x160, 0x160, 0, 0),
     AFFINEANIMCMD_FRAME(0xFFF6, 0xFFF6, 0, 10),
     AFFINEANIMCMD_FRAME(0xA, 0xA, 0, 10),
     AFFINEANIMCMD_JUMP(0),
 };
 
-static const union AffineAnimCmd sAffineAnim_SludgeBombHit[] =
-{
+static const union AffineAnimCmd sAffineAnim_SludgeBombHit[] = {
     AFFINEANIMCMD_FRAME(0xEC, 0xEC, 0, 0),
     AFFINEANIMCMD_END,
 };
 
-static const union AffineAnimCmd *const sAffineAnims_PoisonProjectile[] =
-{
+static const union AffineAnimCmd *const sAffineAnims_PoisonProjectile[] = {
     sAffineAnim_PoisonProjectile,
 };
 
-static const union AffineAnimCmd *const sAffineAnims_SludgeBombHit[] =
-{
+static const union AffineAnimCmd *const sAffineAnims_SludgeBombHit[] = {
     sAffineAnim_SludgeBombHit,
 };
 
-const struct SpriteTemplate gSludgeProjectileSpriteTemplate =
-{
+const struct SpriteTemplate gSludgeProjectileSpriteTemplate = {
     .tileTag = ANIM_TAG_POISON_BUBBLE,
     .paletteTag = ANIM_TAG_POISON_BUBBLE,
     .oam = &gOamData_AffineDouble_ObjNormal_16x16,
@@ -98,8 +83,7 @@ const struct SpriteTemplate gSludgeProjectileSpriteTemplate =
     .callback = AnimSludgeProjectile,
 };
 
-const struct SpriteTemplate gAcidPoisonBubbleSpriteTemplate =
-{
+const struct SpriteTemplate gAcidPoisonBubbleSpriteTemplate = {
     .tileTag = ANIM_TAG_POISON_BUBBLE,
     .paletteTag = ANIM_TAG_POISON_BUBBLE,
     .oam = &gOamData_AffineDouble_ObjNormal_16x16,
@@ -109,8 +93,7 @@ const struct SpriteTemplate gAcidPoisonBubbleSpriteTemplate =
     .callback = AnimAcidPoisonBubble,
 };
 
-const struct SpriteTemplate gSludgeBombHitParticleSpriteTemplate =
-{
+const struct SpriteTemplate gSludgeBombHitParticleSpriteTemplate = {
     .tileTag = ANIM_TAG_POISON_BUBBLE,
     .paletteTag = ANIM_TAG_POISON_BUBBLE,
     .oam = &gOamData_AffineNormal_ObjNormal_16x16,
@@ -120,20 +103,17 @@ const struct SpriteTemplate gSludgeBombHitParticleSpriteTemplate =
     .callback = AnimSludgeBombHitParticle,
 };
 
-static const union AffineAnimCmd sAffineAnim_AcidPoisonDroplet[] =
-{
+static const union AffineAnimCmd sAffineAnim_AcidPoisonDroplet[] = {
     AFFINEANIMCMD_FRAME(0xFFF0, 0x10, 0, 6),
     AFFINEANIMCMD_FRAME(0x10, 0xFFF0, 0, 6),
     AFFINEANIMCMD_JUMP(0),
 };
 
-const union AffineAnimCmd *const gAffineAnims_Droplet[] =
-{
+const union AffineAnimCmd *const gAffineAnims_Droplet[] = {
     sAffineAnim_AcidPoisonDroplet,
 };
 
-const struct SpriteTemplate gAcidPoisonDropletSpriteTemplate =
-{
+const struct SpriteTemplate gAcidPoisonDropletSpriteTemplate = {
     .tileTag = ANIM_TAG_POISON_BUBBLE,
     .paletteTag = ANIM_TAG_POISON_BUBBLE,
     .oam = &gOamData_AffineDouble_ObjNormal_16x16,
@@ -143,20 +123,17 @@ const struct SpriteTemplate gAcidPoisonDropletSpriteTemplate =
     .callback = AnimAcidPoisonDroplet,
 };
 
-static const union AffineAnimCmd sAffineAnim_Bubble[] =
-{
+static const union AffineAnimCmd sAffineAnim_Bubble[] = {
     AFFINEANIMCMD_FRAME(0x9C, 0x9C, 0, 0),
     AFFINEANIMCMD_FRAME(0x5, 0x5, 0, 20),
     AFFINEANIMCMD_END,
 };
 
-static const union AffineAnimCmd *const sAffineAnims_Bubble[] =
-{
+static const union AffineAnimCmd *const sAffineAnims_Bubble[] = {
     sAffineAnim_Bubble,
 };
 
-const struct SpriteTemplate gPoisonBubbleSpriteTemplate =
-{
+const struct SpriteTemplate gPoisonBubbleSpriteTemplate = {
     .tileTag = ANIM_TAG_POISON_BUBBLE,
     .paletteTag = ANIM_TAG_POISON_BUBBLE,
     .oam = &gOamData_AffineNormal_ObjNormal_16x16,
@@ -166,8 +143,7 @@ const struct SpriteTemplate gPoisonBubbleSpriteTemplate =
     .callback = AnimBubbleEffect,
 };
 
-const struct SpriteTemplate gWaterBubbleSpriteTemplate =
-{
+const struct SpriteTemplate gWaterBubbleSpriteTemplate = {
     .tileTag = ANIM_TAG_SMALL_BUBBLES,
     .paletteTag = ANIM_TAG_SMALL_BUBBLES,
     .oam = &gOamData_AffineNormal_ObjBlend_16x16,
@@ -177,100 +153,94 @@ const struct SpriteTemplate gWaterBubbleSpriteTemplate =
     .callback = AnimBubbleEffect,
 };
 
-static void AnimSludgeProjectile(struct Sprite *sprite)
-{
-    if (!gBattleAnimArgs[3])
-        StartSpriteAnim(sprite, 2);
+static void AnimSludgeProjectile(struct Sprite *sprite) {
+  if (!gBattleAnimArgs[3])
+    StartSpriteAnim(sprite, 2);
 
-    InitSpritePosToAnimAttacker(sprite, TRUE);
+  InitSpritePosToAnimAttacker(sprite, TRUE);
 
-    sprite->data[0] = gBattleAnimArgs[2];
-    sprite->data[2] = GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_X_2);
-    sprite->data[4] = GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_Y_PIC_OFFSET);
-    sprite->data[5] = -30;
+  sprite->data[0] = gBattleAnimArgs[2];
+  sprite->data[2] = GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_X_2);
+  sprite->data[4] =
+      GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_Y_PIC_OFFSET);
+  sprite->data[5] = -30;
 
-    InitAnimArcTranslation(sprite);
+  InitAnimArcTranslation(sprite);
 
-    sprite->callback = AnimSludgeProjectile_Step;
+  sprite->callback = AnimSludgeProjectile_Step;
 }
 
-static void AnimSludgeProjectile_Step(struct Sprite *sprite)
-{
-    if (TranslateAnimHorizontalArc(sprite))
-        DestroyAnimSprite(sprite);
+static void AnimSludgeProjectile_Step(struct Sprite *sprite) {
+  if (TranslateAnimHorizontalArc(sprite))
+    DestroyAnimSprite(sprite);
 }
 
-static void AnimAcidPoisonBubble(struct Sprite *sprite)
-{
-    s16 l1, l2;
-    if (!gBattleAnimArgs[3])
-        StartSpriteAnim(sprite, 2);
+static void AnimAcidPoisonBubble(struct Sprite *sprite) {
+  s16 l1, l2;
+  if (!gBattleAnimArgs[3])
+    StartSpriteAnim(sprite, 2);
 
-    InitSpritePosToAnimAttacker(sprite, TRUE);
-    SetAverageBattlerPositions(gBattleAnimTarget, TRUE, &l1, &l2);
+  InitSpritePosToAnimAttacker(sprite, TRUE);
+  SetAverageBattlerPositions(gBattleAnimTarget, TRUE, &l1, &l2);
 
-    if (GetBattlerSide(gBattleAnimAttacker))
-        gBattleAnimArgs[4] = -gBattleAnimArgs[4];
+  if (GetBattlerSide(gBattleAnimAttacker))
+    gBattleAnimArgs[4] = -gBattleAnimArgs[4];
 
-    sprite->data[0] = gBattleAnimArgs[2];
-    sprite->data[2] = l1 + gBattleAnimArgs[4];
-    sprite->data[4] = l2 + gBattleAnimArgs[5];
-    sprite->data[5] = -30;
+  sprite->data[0] = gBattleAnimArgs[2];
+  sprite->data[2] = l1 + gBattleAnimArgs[4];
+  sprite->data[4] = l2 + gBattleAnimArgs[5];
+  sprite->data[5] = -30;
 
-    InitAnimArcTranslation(sprite);
+  InitAnimArcTranslation(sprite);
 
-    sprite->callback = AnimAcidPoisonBubble_Step;
+  sprite->callback = AnimAcidPoisonBubble_Step;
 }
 
-static void AnimAcidPoisonBubble_Step(struct Sprite *sprite)
-{
-    if (TranslateAnimHorizontalArc(sprite))
-        DestroyAnimSprite(sprite);
+static void AnimAcidPoisonBubble_Step(struct Sprite *sprite) {
+  if (TranslateAnimHorizontalArc(sprite))
+    DestroyAnimSprite(sprite);
 }
 
-static void AnimSludgeBombHitParticle(struct Sprite *sprite)
-{
-    sprite->data[0] = gBattleAnimArgs[2];
-    sprite->data[1] = sprite->x;
-    sprite->data[2] = sprite->x + gBattleAnimArgs[0];
-    sprite->data[3] = sprite->y;
-    sprite->data[4] = sprite->y + gBattleAnimArgs[1];
+static void AnimSludgeBombHitParticle(struct Sprite *sprite) {
+  sprite->data[0] = gBattleAnimArgs[2];
+  sprite->data[1] = sprite->x;
+  sprite->data[2] = sprite->x + gBattleAnimArgs[0];
+  sprite->data[3] = sprite->y;
+  sprite->data[4] = sprite->y + gBattleAnimArgs[1];
 
-    InitSpriteDataForLinearTranslation(sprite);
+  InitSpriteDataForLinearTranslation(sprite);
 
-    sprite->data[5] = sprite->data[1] / gBattleAnimArgs[2];
-    sprite->data[6] = sprite->data[2] / gBattleAnimArgs[2];
+  sprite->data[5] = sprite->data[1] / gBattleAnimArgs[2];
+  sprite->data[6] = sprite->data[2] / gBattleAnimArgs[2];
 
-    sprite->callback = AnimSludgeBombHitParticle_Step;
+  sprite->callback = AnimSludgeBombHitParticle_Step;
 }
 
-static void AnimSludgeBombHitParticle_Step(struct Sprite *sprite)
-{
-    TranslateSpriteLinearFixedPoint(sprite);
+static void AnimSludgeBombHitParticle_Step(struct Sprite *sprite) {
+  TranslateSpriteLinearFixedPoint(sprite);
 
-    sprite->data[1] -= sprite->data[5];
-    sprite->data[2] -= sprite->data[6];
+  sprite->data[1] -= sprite->data[5];
+  sprite->data[2] -= sprite->data[6];
 
-    if (!sprite->data[0])
-        DestroyAnimSprite(sprite);
+  if (!sprite->data[0])
+    DestroyAnimSprite(sprite);
 }
 
-static void AnimAcidPoisonDroplet(struct Sprite *sprite)
-{
-    SetAverageBattlerPositions(gBattleAnimTarget, TRUE, &sprite->x, &sprite->y);
+static void AnimAcidPoisonDroplet(struct Sprite *sprite) {
+  SetAverageBattlerPositions(gBattleAnimTarget, TRUE, &sprite->x, &sprite->y);
 
-    if (GetBattlerSide(gBattleAnimAttacker) != B_SIDE_PLAYER)
-        gBattleAnimArgs[0] = -gBattleAnimArgs[0];
+  if (GetBattlerSide(gBattleAnimAttacker) != B_SIDE_PLAYER)
+    gBattleAnimArgs[0] = -gBattleAnimArgs[0];
 
-    sprite->x += gBattleAnimArgs[0];
-    sprite->y += gBattleAnimArgs[1];
+  sprite->x += gBattleAnimArgs[0];
+  sprite->y += gBattleAnimArgs[1];
 
-    sprite->data[0] = gBattleAnimArgs[4];
-    sprite->data[2] = sprite->x + gBattleAnimArgs[2];
-    sprite->data[4] = sprite->y + sprite->data[0];
+  sprite->data[0] = gBattleAnimArgs[4];
+  sprite->data[2] = sprite->x + gBattleAnimArgs[2];
+  sprite->data[4] = sprite->y + sprite->data[0];
 
-    sprite->callback = StartAnimLinearTranslation;
-    StoreSpriteCallbackInData6(sprite, DestroyAnimSprite);
+  sprite->callback = StartAnimLinearTranslation;
+  StoreSpriteCallbackInData6(sprite, DestroyAnimSprite);
 }
 
 // Animates a bubble by rising upward, swaying side to side, and
@@ -279,33 +249,28 @@ static void AnimAcidPoisonDroplet(struct Sprite *sprite)
 // arg 0: initial x pixel offset
 // arg 1: initial y pixel offset
 // arg 2: 0 = single-target, 1 = multi-target
-static void AnimBubbleEffect(struct Sprite *sprite)
-{
-    if (!gBattleAnimArgs[2])
-    {
-        InitSpritePosToAnimTarget(sprite, TRUE);
-    }
-    else
-    {
-        SetAverageBattlerPositions(gBattleAnimTarget, TRUE, &sprite->x, &sprite->y);
+static void AnimBubbleEffect(struct Sprite *sprite) {
+  if (!gBattleAnimArgs[2]) {
+    InitSpritePosToAnimTarget(sprite, TRUE);
+  } else {
+    SetAverageBattlerPositions(gBattleAnimTarget, TRUE, &sprite->x, &sprite->y);
 
-        if (GetBattlerSide(gBattleAnimAttacker) != B_SIDE_PLAYER)
-            gBattleAnimArgs[0] = -gBattleAnimArgs[0];
+    if (GetBattlerSide(gBattleAnimAttacker) != B_SIDE_PLAYER)
+      gBattleAnimArgs[0] = -gBattleAnimArgs[0];
 
-        sprite->x += gBattleAnimArgs[0];
-        sprite->y += gBattleAnimArgs[1];
-    }
+    sprite->x += gBattleAnimArgs[0];
+    sprite->y += gBattleAnimArgs[1];
+  }
 
-    sprite->callback = AnimBubbleEffect_Step;
+  sprite->callback = AnimBubbleEffect_Step;
 }
 
-static void AnimBubbleEffect_Step(struct Sprite *sprite)
-{
-    sprite->data[0] = (sprite->data[0] + 0xB) & 0xFF;
-    sprite->x2 = Sin(sprite->data[0], 4);
-    sprite->data[1] += 0x30;
-    sprite->y2 = -(sprite->data[1] >> 8);
+static void AnimBubbleEffect_Step(struct Sprite *sprite) {
+  sprite->data[0] = (sprite->data[0] + 0xB) & 0xFF;
+  sprite->x2 = Sin(sprite->data[0], 4);
+  sprite->data[1] += 0x30;
+  sprite->y2 = -(sprite->data[1] >> 8);
 
-    if (sprite->affineAnimEnded)
-        DestroyAnimSprite(sprite);
+  if (sprite->affineAnimEnded)
+    DestroyAnimSprite(sprite);
 }

@@ -3,33 +3,31 @@
 
 #include "constants/wild_encounter.h"
 
-struct WildPokemon
-{
-    u8 minLevel;
-    u8 maxLevel;
-    u16 species;
+struct WildPokemon {
+  u8 minLevel;
+  u8 maxLevel;
+  u16 species;
 };
 
-struct WildPokemonInfo
-{
-    u8 encounterRate;
-    const struct WildPokemon *wildPokemon;
+struct WildPokemonInfo {
+  u8 encounterRate;
+  const struct WildPokemon *wildPokemon;
 };
 
-struct WildPokemonHeader
-{
-    u8 mapGroup;
-    u8 mapNum;
-    const struct WildPokemonInfo *landMonsInfo;
-    const struct WildPokemonInfo *waterMonsInfo;
-    const struct WildPokemonInfo *rockSmashMonsInfo;
-    const struct WildPokemonInfo *fishingMonsInfo;
+struct WildPokemonHeader {
+  u8 mapGroup;
+  u8 mapNum;
+  const struct WildPokemonInfo *landMonsInfo;
+  const struct WildPokemonInfo *waterMonsInfo;
+  const struct WildPokemonInfo *rockSmashMonsInfo;
+  const struct WildPokemonInfo *fishingMonsInfo;
 };
 
 extern const struct WildPokemonHeader gWildMonHeaders[];
 
 void DisableWildEncounters(bool8 disabled);
-bool8 StandardWildEncounter(u16 currMetaTileBehavior, u16 previousMetaTileBehavior);
+bool8 StandardWildEncounter(u16 currMetaTileBehavior,
+                            u16 previousMetaTileBehavior);
 bool8 SweetScentWildEncounter(void);
 bool8 DoesCurrentMapHaveFishingMons(void);
 void FishingWildEncounter(u8 rod);

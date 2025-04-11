@@ -13,6 +13,7 @@ void MG_AddMessageTextPrinter(const u8 *src);
 void CB2_InitEReader(void);
 void CB2_InitMysteryGift(void);
 void MG_DrawTextBorder(u8 windowId);
-s8 DoMysteryGiftYesNo(u8 *textState, u16 *windowId, bool8 yesNoBoxPlacement, const u8 *str);
+s8 DoMysteryGiftYesNo(u8 *textState, u16 *windowId, bool8 yesNoBoxPlacement,
+                      const u8 *str);
 
-#endif //GUARD_MYSTERY_GIFT_MENU_H
+#endif // GUARD_MYSTERY_GIFT_MENU_H

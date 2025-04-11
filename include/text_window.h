@@ -3,10 +3,9 @@
 
 #define WINDOW_FRAMES_COUNT 20
 
-struct TilesPal
-{
-    const u8 *tiles;
-    const u16 *pal;
+struct TilesPal {
+  const u8 *tiles;
+  const u16 *pal;
 };
 
 extern const u8 gTextWindowFrame1_Gfx[];

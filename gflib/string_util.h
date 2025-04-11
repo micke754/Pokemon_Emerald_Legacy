@@ -6,11 +6,10 @@ extern u8 gStringVar2[0x100];
 extern u8 gStringVar3[0x100];
 extern u8 gStringVar4[0x3E8];
 
-enum StringConvertMode
-{
-    STR_CONV_MODE_LEFT_ALIGN,
-    STR_CONV_MODE_RIGHT_ALIGN,
-    STR_CONV_MODE_LEADING_ZEROS
+enum StringConvertMode {
+  STR_CONV_MODE_LEFT_ALIGN,
+  STR_CONV_MODE_RIGHT_ALIGN,
+  STR_CONV_MODE_LEADING_ZEROS
 };
 
 u8 *StringCopy_Nickname(u8 *dest, const u8 *src);
@@ -24,9 +23,12 @@ u16 StringLength(const u8 *str);
 s32 StringCompare(const u8 *str1, const u8 *str2);
 s32 StringCompareN(const u8 *str1, const u8 *str2, u32 n);
 bool8 IsStringLengthAtLeast(const u8 *str, s32 n);
-u8 *ConvertIntToDecimalStringN(u8 *dest, s32 value, enum StringConvertMode mode, u8 n);
-u8 *ConvertUIntToDecimalStringN(u8 *dest, u32 value, enum StringConvertMode mode, u8 n);
-u8 *ConvertIntToHexStringN(u8 *dest, s32 value, enum StringConvertMode mode, u8 n);
+u8 *ConvertIntToDecimalStringN(u8 *dest, s32 value, enum StringConvertMode mode,
+                               u8 n);
+u8 *ConvertUIntToDecimalStringN(u8 *dest, u32 value,
+                                enum StringConvertMode mode, u8 n);
+u8 *ConvertIntToHexStringN(u8 *dest, s32 value, enum StringConvertMode mode,
+                           u8 n);
 u8 *StringExpandPlaceholders(u8 *dest, const u8 *src);
 u8 *StringBraille(u8 *dest, const u8 *src);
 const u8 *GetExpandedPlaceholder(u32 id);

@@ -371,14 +371,14 @@ extern const u8 SecretBase_Text_Trainer7Defeated[];
 extern const u8 SecretBase_Text_Trainer8Defeated[];
 extern const u8 SecretBase_Text_Trainer9Defeated[];
 
-//field effects
+// field effects
 extern const u8 EventScript_UseStrength[];
 extern const u8 EventScript_FailSweetScent[];
 extern const u8 EventScript_UseFlash[];
 extern const u8 EventScript_UseCut[];
 extern const u8 EventScript_UseRockSmash[];
 
-//player pc
+// player pc
 extern const u8 LittlerootTown_BrendansHouse_2F_EventScript_TurnOffPlayerPC[];
 extern const u8 LittlerootTown_MaysHouse_2F_EventScript_TurnOffPlayerPC[];
 
@@ -464,7 +464,8 @@ extern const u8 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsTitle[];
 extern const u8 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction[];
 extern const u8 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory[];
 extern const u8 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesTitle[];
-extern const u8 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction[];
+extern const u8
+    MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction[];
 extern const u8 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory[];
 extern const u8 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle[];
 extern const u8 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction[];
@@ -548,7 +549,8 @@ extern const u8 AbnormalWeather_EventScript_EndEventAndCleanup_1[];
 extern const u8 IslandCave_EventScript_OpenRegiEntrance[];
 extern const u8 MauvilleCity_EventScript_RegisterWallyCall[];
 extern const u8 Route119_EventScript_ScottWonAtFortreeGymCall[];
-extern const u8 LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall[];
+extern const u8
+    LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall[];
 extern const u8 RustboroCity_Gym_EventScript_RegisterRoxanne[];
 extern const u8 MossdeepCity_SpaceCenter_2F_EventScript_RivalRayquazaCall[];
 extern const u8 PetalburgCity_Gym_EventScript_NormanRematchCall[];

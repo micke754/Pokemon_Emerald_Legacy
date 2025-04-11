@@ -12,4 +12,4 @@ void BattleArena_DeductSkillPoints(u8 battler, u16 stringId);
 void DrawArenaRefereeTextBox(void);
 void EraseArenaRefereeTextBox(void);
 
-#endif //GUARD_BATTLE_ARENA_H
+#endif // GUARD_BATTLE_ARENA_H
